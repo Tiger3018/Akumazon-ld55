@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Dialogue_Voiceover Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Dialogue_Voiceover
+  m_TableCollectionNameGuidString: f6f69e7156278492d843cbf5f2fb8ce0
+  m_Entries:
+  - m_Id: 300561646739456
+    m_Key: MainScene/Canvas/OptionDialogue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 304574916190208
+    m_Key: MainScene/EventSystem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 304826620567552
+    m_Key: OptionDialogue/Prefab Mode in Context/OptionDialogue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 304905859358720
+    m_Key: OptionDialogue/Prefab Mode in Context/OptionDialogue 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 305624985362432
+    m_Key: MainScene/EventSystem 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306780176375808
+    m_Key: MainScene/Canvas/OptionDialogue 1
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items:
+    - rid: 4247450027472715993
+    - rid: 4247450027472716009
+    - rid: 4247450027472716010
+    - rid: 4247450027472716015
+  m_KeyGenerator:
+    rid: 4247450009170870298
+  references:
+    version: 2
+    RefIds:
+    - rid: 4247450009170870298
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1713015536724
+    - rid: 4247450027472715993
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 300561646739456
+          m_TableCodes:
+          - en
+        m_TypeString: UnityEngine.CanvasGroup, UnityEngine.UIModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+    - rid: 4247450027472716009
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 304826620567552
+          m_TableCodes:
+          - en
+        m_TypeString: TMPro.TextMeshProUGUI, Unity.TextMeshPro, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+    - rid: 4247450027472716010
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 304905859358720
+          m_TableCodes:
+          - en
+        m_TypeString: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+    - rid: 4247450027472716015
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 304574916190208
+          m_TableCodes:
+          - zh-Hans
+        m_TypeString: OptionsListView, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null

@@ -71,5 +71,11 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-#Gen file removal
-*.Generated
+# Manual Lists
+# Gen file removal
+*.Generated/
+*.Generated.*
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+#.*
+.DS_Store
+!.git*

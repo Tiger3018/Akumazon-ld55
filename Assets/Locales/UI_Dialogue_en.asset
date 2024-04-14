@@ -1,0 +1,515 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UI_Dialogue_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: df07be1d3bb864165adf7f09659b7070, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 218247474438144
+    m_Localized: 'System: Action Start! '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324615589888
+    m_Localized: 'A: Hey buddy! I heard, um, that you can summon those, uh, those
+      - those little demons for dirty deeds?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978496
+    m_Localized: 'Player: My little demons can handle any job, not just dirty ones.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978497
+    m_Localized: 'A: Impressive! Listen, I''m really at my wit''s end here and you
+      gotta help me. My neighbor is intentionally being mean to me. He''s making
+      my life a living hell! I''ve been holding it in for so long......'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978498
+    m_Localized: 'A: Before the sun even thinks about waking up, his darn rooster''s
+      already screaming bloody murder right at my doorstep! It breaks into my yard
+      and demolishes my veggies like barbarians. Where''s their owner, my dear neighbor?
+      He doesn''t care a bit!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978499
+    m_Localized: 'A: And that dumb dog, too! Sneaks up and chows down on the sausages
+      hanging at my back door, then leaves its poop everywhere! I''ve returned the
+      dog and talked nicely with my neighbor over and over. But what about him? He
+      made fine verbal promises, but the next day his dog was back in my yard using
+      my yard as a toilet again! I''ve really had enough!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978500
+    m_Localized: 'A: Then there''s my milk, huh, always mysteriously running out
+      fast. Clearly there''s a milk thief. And there''s also my trees in the backyard!
+      They are always found chopped up, probably stolen for firewood too!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978501
+    m_Localized: 'A: My neighbor''s so broke, you know, while I''m owning a large
+      fortune. I bet he hated me for this! But hey, my family earned our money by
+      working hard - we don''t steal from people! Why''s he got to be so petty?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978502
+    m_Localized: 'A: Look, could you, maybe... send a demon, set a little fire, burn
+      down that raggedy chicken coop of my neighbor''s, give him a little lesson?
+      I know it''s kinda naughty, but I''ve been bullied for so long! I just can''t
+      stomach it anymore...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978503
+    m_Localized: 'A: ...So, how about at 7 o''clock in the morning, we burn that
+      chicken coop? Don''t worry, the chickens are all out scattering in my fields
+      by that time, no one will get hurt! I''m only doing this to teach him a lesson.
+      What do you say? This bag of gold, all yours if you say yes!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978504
+    m_Localized: Okay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978505
+    m_Localized: 'Player: No problem, I''ll help you out.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978506
+    m_Localized: Not enough gold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978507
+    m_Localized: 'Player: Setting fires is serious work. Do you really think a bag
+      of gold is enough? '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978508
+    m_Localized: 'A: Oh! Umm...no problem, no problem! Two bags, three bags... I''ve
+      got enough gold, it''s up to you! Just give me your offer!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978509
+    m_Localized: 'Player: No need for those. Just get me another 100 bags of Tiger
+      Beef Chilli Sauce.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978510
+    m_Localized: 'A: Sure, sure! No problem! '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978511
+    m_Localized: 'B: Good evening, is this the place for, uh, those...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978512
+    m_Localized: 'Player: The Akumazon. Welcome.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978513
+    m_Localized: 'B: Right! Sorry, my first time here, not quite sure how it works.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978514
+    m_Localized: 'Player: What can I do for you?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978515
+    m_Localized: 'B: Long story short, I''m here to ask for your help with the priest''s
+      asthma.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978516
+    m_Localized: 'B: My dear lord, this spring has been brutal. It''s been super
+      chilly and rained non-stop for a week. I got a little careless and all our
+      firewood got soaked.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978517
+    m_Localized: 'B: My family is poor, to be honest. We worked hard, but there were
+      just too many people who needed to be fed. Not to mention last year''s lousy
+      crop harvest. *Sigh*'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978518
+    m_Localized: 'B: Usually we use simple home-made fire starters, but they are
+      too weak to light wet logs. Unfortunately, it''s impossible for us to afford
+      those fancy matches. Grandma''s sick from the cold weather and not getting
+      better.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978519
+    m_Localized: 'B: I was really worried about her, so last Sunday I told the priest
+      all about it. He said he''d pray for me, and God would grant me what I needed.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978520
+    m_Localized: 'B: At first I thought he was just saying nice things, but today
+      at about 7 o''clock in the morning, while I was doing my daily routine of feeding
+      the chickens, I saw the roof of the coop was on fire! It felt like a blessing,
+      or if I may say, like a gift from above!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978521
+    m_Localized: 'Player: So you think the priest has something to do with the fire?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978522
+    m_Localized: 'B: I''m not that sure, but this morning, I saw a faint pentagram
+      above the flames, just like the symbol I''ve seen in the priest''s office earlier
+      this year!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978523
+    m_Localized: 'B: The priest is always giving us a hand behind the scenes. Last
+      harvest, when we were short of labor in the fields, it was also he who persuaded
+      our neighbors to help us out.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978524
+    m_Localized: 'B: He is so nice. And our whole family is so so grateful. Today
+      he must''ve known that I''d be feeding the chickens at 7, so he sneaked off
+      to help again!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978525
+    m_Localized: 'Player: ...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978526
+    m_Localized: 'B: Anyway... I know that the priest''s asthma gets worse om rainy
+      days. Can you summon a little demon to the church, and help him get better?
+      He''s been so good to my family, I want to repay his kindness no matter what.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978527
+    m_Localized: 'Player: Curing him is too tough, but my demon can offer some temporary
+      relief.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978528
+    m_Localized: 'B: That''ll do it too! Oh, thank you, seriously. The poor old man
+      coughed so badly during the service this Sunday, that I was afraid he wouldn''t
+      make it through this spring! By the way, the church is on the mountain at the
+      other end of the village.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978529
+    m_Localized: 'B: I don''t have much money, but here I brought a tapestry my grams
+      knitted. I don''t know if it''s enough, but please, please help me...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978530
+    m_Localized: Nice tapestry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978531
+    m_Localized: 'Player: Considering that tapestry matches my room, I''ll take care
+      of this for you.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978532
+    m_Localized: 'No more rewards? '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978533
+    m_Localized: 'Player: Yesterday my client gave me a bag of gold. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978534
+    m_Localized: 'B: Sorry, I just can''t get that much money... My grandma knitted
+      for a whole month to make this tapestry, and it''s breathtaking. Grandma''s
+      craftsmanship is the best in the whole village, you can''t find such a beautiful
+      tapestry on the street. But, but if it''s really not enough, I''ll think of
+      another way...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978535
+    m_Localized: 'Player: Time is also a precious prize. Seeing as how the tapestry
+      matches my room, my demons will take care of this for you. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978536
+    m_Localized: 'B: Thank you, thank you so so much! '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978537
+    m_Localized: 'C: Umm...hello? Excuse me...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978538
+    m_Localized: 'Player: We offer little demon services here. What do you need?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978539
+    m_Localized: 'C: Ah, um...I may need your help, but I...um...I don''t have any
+      gold. Could these pearl earrings cover the cost?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978540
+    m_Localized: We accept anything here
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978541
+    m_Localized: 'Player: Don''t worry, we take everything here. But first, why don''t
+      you tell me about your wish. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978542
+    m_Localized: Tell your story first
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978543
+    m_Localized: 'Player: Why don''t we listen to your claim first.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978544
+    m_Localized: 'C: Of course. Well...there''s a boy, we grew up together. We were
+      like best friends in the world. And now we are in love.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978545
+    m_Localized: 'C: My father, however... My father has a high reputation and is
+      well-respected around the town. Everyone admires him. He looks down on my lover
+      because he''s poor and ''just a farmer''. Father, he... I think he won''t let
+      us get married.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978546
+    m_Localized: "C: And then there's a boy I met at the church. He\u2026 he seemed
+      to pay too much attention to me. I run into him all over the town, even in
+      my private spots where I like to be alone."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978547
+    m_Localized: 'C: I have no clue how he finds me, but it feels like... like he''s
+      tracking me. Just my rough guess.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978548
+    m_Localized: 'C: He talks to me in a rude manner and likes to hover too close.
+      Honestly, I got pretty scared from time to time. I don''t like him.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978549
+    m_Localized: 'C: But he''s wealthy, and my father really likes that. Father kept
+      forcing me to spend more time with him. I felt tormented.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978550
+    m_Localized: 'C: And then it was last night. Father called me in for a serious
+      talk, told me that I must go out more with the wealthy man. He also threatened...
+      threatened to break my legs if I saw my love again, and make sure he suffers
+      too...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978551
+    m_Localized: 'C: I love my sweetheart... Love him more than I love my own life.
+      I don''t want anything bad to happen to him, can you understand? ...I''ve chosen
+      not to see him anymore, but I don''t want him to feel betrayed.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978552
+    m_Localized: 'C: I want to do one last thing for him. Please, summon a little
+      devil to help his crops grow. I know he cares a lot about his fields, it''ll
+      definitely cheer him up.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978553
+    m_Localized: "C: Also\u2026 could you please plant some lilacs along the field?
+      It's a special thing between us... He'll know it was me."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978554
+    m_Localized: No problem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978555
+    m_Localized: Not enough rewards
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978556
+    m_Localized: 'Player: I can do that, but a pair of pearl earrings isn''t enough.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978557
+    m_Localized: 'C: Oh...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978558
+    m_Localized: 'Player: Consider adding your bracelet to the offer. That will make
+      the deal. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978559
+    m_Localized: 'C: But this bracelet was the first gift from...You know what? Never
+      mind, you can take the bracelet too.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978560
+    m_Localized: 'Player: Deal. Don''t worry, my little demons always get the job
+      done.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978561
+    m_Localized: 'D: My friend! So good to see you again!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978562
+    m_Localized: 'Player: Hello to you too.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978563
+    m_Localized: 'D: Listen, last job you did was fantastic! Those troublemakers''
+      chronic disease got mysteriously serious and kicked the bucket! No one questions
+      my authority in the church anymore, and they''ll never find out who did it!
+      Hahaha!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978564
+    m_Localized: 'Player: Well, my little demons are always obedient.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978565
+    m_Localized: 'D: Now Pay attention. This time, I''ve got a much bigger favor
+      to ask. Remember I told you about my daughter? The one abandoned at the church
+      door, whom I raised?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978566
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978567
+    m_Localized: 'Player: ...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978568
+    m_Localized: Met her days earlier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978569
+    m_Localized: 'Player: I saw her a few days ago.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978570
+    m_Localized: 'D: Huh? You saw her? That must be at the Church! Ha! Never thought
+      I''d see the day you actually go into a Church! Aren''t you afraid you''ll
+      be burnt to ash by the ''holy flame''? Ha ha ha! '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978571
+    m_Localized: 'Player: ...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978572
+    m_Localized: 'D: She''s grown up a lot these past few years. Not gonna lie, she''s
+      turned out like an angel. Beautiful face, kind heart, the whole package. Everyone
+      loves her.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978573
+    m_Localized: 'D: I paid a lot of effort into raising such a wonderful daughter,
+      but wouldn''t you know it, some village idiots have got their eye on her now.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978574
+    m_Localized: 'D: That broke kid who was always playing with her and she likes
+      so much? Ridiculous! I never took him seriously. Then this rich fool comes
+      along, making a scene and chasing my girl relentlessly. Got the whole village
+      talking about him!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978575
+    m_Localized: 'D: Yes, right, that kid is rich, so I let my daughter spent some
+      time with him, to you know, get some goodies out of him. Now, he thinks he''s
+      got a shot at marrying her, absurd! Can you believe it?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978576
+    m_Localized: 'D: Two complete clowns. I hate them. Hate them!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978577
+    m_Localized: 'D: My daughter is mine, I''m the one raised her! She belongs to
+      me, no one will ever take her away. She''s my angel, and she''ll always be
+      mine... She''ll be my belongings till the day I die! My precious...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978578
+    m_Localized: 'D: Well, as a father, the last thing I wanna do is to limit her
+      freedom. But these two jerks are pushing their luck, seducing my daughter,
+      crossing my line again and again!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978579
+    m_Localized: 'D: You, help me burn those two to a crisp! Their houses are right
+      next to each other, one fire ought to do the trick!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978580
+    m_Localized: '*Silent*'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978581
+    m_Localized: 'Player: ...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978582
+    m_Localized: 'Why? '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978583
+    m_Localized: 'Player: The young men didn''t do anything evil. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978584
+    m_Localized: 'D: Hey, I''m just protecting my daughter! It''s for her own good!
+      If she stays with me, she''ll always be happy...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978585
+    m_Localized: 'Player: ...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978586
+    m_Localized: "D: Look, look at this! This gold ring with the biggest, prettiest
+      ruby you've ever seen\u2026 This thing is priceless. It's worth a fleet of
+      warships!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978587
+    m_Localized: 'D: If that''s not enough, I''ve got loads more treasures, just
+      say the word! I''d give anything to keep my daughter with me, anything at all!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978588
+    m_Localized: Accept it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978589
+    m_Localized: 'Player: ...Fine, leave the ring here. I''ll handle it.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978590
+    m_Localized: 'Accept it? '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289324623978591
+    m_Localized: 'Player: ...Fine, leave the ring here. Wait for my word. '
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

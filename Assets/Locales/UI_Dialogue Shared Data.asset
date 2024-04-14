@@ -1,0 +1,1015 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UI_Dialogue Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: UI_Dialogue
+  m_TableCollectionNameGuidString: df07be1d3bb864165adf7f09659b7070
+  m_Entries:
+  - m_Id: 218247474438144
+    m_Key: line:intro
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118775
+  - m_Id: 289324615589888
+    m_Key: line:C1-0-greating
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118776
+  - m_Id: 289324623978496
+    m_Key: line:C1-1-response
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118777
+  - m_Id: 289324623978497
+    m_Key: line:C1-2-startcomplain
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118778
+  - m_Id: 289324623978498
+    m_Key: line:C1-3-rooster
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118779
+  - m_Id: 289324623978499
+    m_Key: line:C1-4-dog
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118780
+  - m_Id: 289324623978500
+    m_Key: line:C1-5-milk
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118781
+  - m_Id: 289324623978501
+    m_Key: line:C1-6-poor
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118782
+  - m_Id: 289324623978502
+    m_Key: line:C1-7-fire
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118783
+  - m_Id: 289324623978503
+    m_Key: line:C1-8-coin
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118784
+  - m_Id: 289324623978504
+    m_Key: line:C1-9-option1
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118785
+  - m_Id: 289324623978505
+    m_Key: line:C1-10-end
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118786
+  - m_Id: 289324623978506
+    m_Key: line:C1-11-option2
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118787
+  - m_Id: 289324623978507
+    m_Key: line:C1-12-notenough
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118788
+  - m_Id: 289324623978508
+    m_Key: line:C1-13-moregold
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118789
+  - m_Id: 289324623978509
+    m_Key: line:C1-14-tiger3018
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118790
+  - m_Id: 289324623978510
+    m_Key: line:C1-15-end
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118791
+  - m_Id: 289324623978511
+    m_Key: line:C2-0-hello
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118792
+  - m_Id: 289324623978512
+    m_Key: line:C2-1-akuma
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118793
+  - m_Id: 289324623978513
+    m_Key: line:C2-2-firsttime
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118794
+  - m_Id: 289324623978514
+    m_Key: line:C2-3-whatswrong
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118795
+  - m_Id: 289324623978515
+    m_Key: line:C2-4-priest
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118796
+  - m_Id: 289324623978516
+    m_Key: line:C2-5-rainy
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118797
+  - m_Id: 289324623978517
+    m_Key: line:C2-6-nofire
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118798
+  - m_Id: 289324623978518
+    m_Key: line:C2-7-cold
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118799
+  - m_Id: 289324623978519
+    m_Key: line:C2-8-church
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118800
+  - m_Id: 289324623978520
+    m_Key: line:C2-9-fire
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118801
+  - m_Id: 289324623978521
+    m_Key: line:C2-10-question
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118802
+  - m_Id: 289324623978522
+    m_Key: line:C2-11-star
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118803
+  - m_Id: 289324623978523
+    m_Key: line:C2-12-goodpriest
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118804
+  - m_Id: 289324623978524
+    m_Key: line:C2-13-priestgood
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118805
+  - m_Id: 289324623978525
+    m_Key: line:C2-14-silence
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118806
+  - m_Id: 289324623978526
+    m_Key: line:C2-15-cure
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118807
+  - m_Id: 289324623978527
+    m_Key: line:C2-16-hard
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118808
+  - m_Id: 289324623978528
+    m_Key: line:C2-17-ok
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118809
+  - m_Id: 289324623978529
+    m_Key: line:C2-18-tapestry
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118810
+  - m_Id: 289324623978530
+    m_Key: line:C2-19-option1
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118811
+  - m_Id: 289324623978531
+    m_Key: line:C2-20-ok
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118812
+  - m_Id: 289324623978532
+    m_Key: line:C2-21-option2
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118813
+  - m_Id: 289324623978533
+    m_Key: line:C2-22-yesterday
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118814
+  - m_Id: 289324623978534
+    m_Key: line:C2-23-nomoney
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118815
+  - m_Id: 289324623978535
+    m_Key: line:C2-24-fine
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118816
+  - m_Id: 289324623978536
+    m_Key: line:C2-25-end
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118817
+  - m_Id: 289324623978537
+    m_Key: line:C3-0-hello
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118818
+  - m_Id: 289324623978538
+    m_Key: line:C3-1-hello
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118819
+  - m_Id: 289324623978539
+    m_Key: line:C3-2-pearl
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118820
+  - m_Id: 289324623978540
+    m_Key: line:C3-3-option1
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118821
+  - m_Id: 289324623978541
+    m_Key: line:C3-4-accept
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118822
+  - m_Id: 289324623978542
+    m_Key: line:C3-5-option1
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118823
+  - m_Id: 289324623978543
+    m_Key: line:C3-6-tell
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118824
+  - m_Id: 289324623978544
+    m_Key: line:C3-7-lover
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118825
+  - m_Id: 289324623978545
+    m_Key: line:C3-8-father
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118826
+  - m_Id: 289324623978546
+    m_Key: line:C3-9-newboy
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118827
+  - m_Id: 289324623978547
+    m_Key: line:C3-10-stalker
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118828
+  - m_Id: 289324623978548
+    m_Key: line:C3-11-weird
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118829
+  - m_Id: 289324623978549
+    m_Key: line:C3-12-satisfied
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118830
+  - m_Id: 289324623978550
+    m_Key: line:C3-13-force
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118831
+  - m_Id: 289324623978551
+    m_Key: line:C3-14-breakup
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118832
+  - m_Id: 289324623978552
+    m_Key: line:C3-15-growcrops
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118833
+  - m_Id: 289324623978553
+    m_Key: line:C3-16-growflowers
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118834
+  - m_Id: 289324623978554
+    m_Key: line:C3-17-option1
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118835
+  - m_Id: 289324623978555
+    m_Key: line:C3-18-option2
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118836
+  - m_Id: 289324623978556
+    m_Key: line:C3-19-notenough
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118837
+  - m_Id: 289324623978557
+    m_Key: line:C3-20-ah
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118838
+  - m_Id: 289324623978558
+    m_Key: line:C3-21-bracelet
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118839
+  - m_Id: 289324623978559
+    m_Key: line:C3-22-fine
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118840
+  - m_Id: 289324623978560
+    m_Key: line:C3-23-end
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118841
+  - m_Id: 289324623978561
+    m_Key: line:C4-0-hello
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118842
+  - m_Id: 289324623978562
+    m_Key: line:C4-1-hello
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118843
+  - m_Id: 289324623978563
+    m_Key: line:C4-2-goodjob
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118844
+  - m_Id: 289324623978564
+    m_Key: line:C4-3-sure
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118845
+  - m_Id: 289324623978565
+    m_Key: line:C4-4-daughter
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118846
+  - m_Id: 289324623978566
+    m_Key: line:C4-5-option1
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118847
+  - m_Id: 289324623978567
+    m_Key: line:C4-6-silence
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118848
+  - m_Id: 289324623978568
+    m_Key: line:C4-7-option2
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118849
+  - m_Id: 289324623978569
+    m_Key: line:C4-8-seenbefore
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118850
+  - m_Id: 289324623978570
+    m_Key: line:C4-9-church
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118851
+  - m_Id: 289324623978571
+    m_Key: line:C4-10-silence
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118852
+  - m_Id: 289324623978572
+    m_Key: line:C4-11-angel
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118853
+  - m_Id: 289324623978573
+    m_Key: line:C4-12-badboys
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118854
+  - m_Id: 289324623978574
+    m_Key: line:C4-13-badbadboys
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118855
+  - m_Id: 289324623978575
+    m_Key: line:C4-14-richguy
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118856
+  - m_Id: 289324623978576
+    m_Key: line:C4-15-stupid
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118857
+  - m_Id: 289324623978577
+    m_Key: line:C4-16-myprecious
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118858
+  - m_Id: 289324623978578
+    m_Key: line:C4-17-furious
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118859
+  - m_Id: 289324623978579
+    m_Key: line:C4-18-burn
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118860
+  - m_Id: 289324623978580
+    m_Key: line:C4-19-option1
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118861
+  - m_Id: 289324623978581
+    m_Key: line:C4-20-silence
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118862
+  - m_Id: 289324623978582
+    m_Key: line:C4-21-option2
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118863
+  - m_Id: 289324623978583
+    m_Key: line:C4-22-why
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118864
+  - m_Id: 289324623978584
+    m_Key: line:C4-23-protect
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118865
+  - m_Id: 289324623978585
+    m_Key: line:C4-24-silence
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118866
+  - m_Id: 289324623978586
+    m_Key: line:C4-25-ring
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118867
+  - m_Id: 289324623978587
+    m_Key: line:C4-26-anything
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118868
+  - m_Id: 289324623978588
+    m_Key: line:C4-27-option1
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118869
+  - m_Id: 289324623978589
+    m_Key: line:C4-28-ok
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118870
+  - m_Id: 289324623978590
+    m_Key: line:C4-29-option2
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118871
+  - m_Id: 289324623978591
+    m_Key: line:C4-30-ok?
+    m_Metadata:
+      m_Items:
+      - rid: 4247450033601118872
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 4247450009170870297
+  references:
+    version: 2
+    RefIds:
+    - rid: 4247450009170870297
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1713015401733
+    - rid: 4247450033601118775
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Start
+        tags: []
+    - rid: 4247450033601118776
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_1
+        tags: []
+    - rid: 4247450033601118777
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_1
+        tags: []
+    - rid: 4247450033601118778
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_1
+        tags: []
+    - rid: 4247450033601118779
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_1
+        tags: []
+    - rid: 4247450033601118780
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_1
+        tags: []
+    - rid: 4247450033601118781
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_1
+        tags: []
+    - rid: 4247450033601118782
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_1
+        tags: []
+    - rid: 4247450033601118783
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_1
+        tags: []
+    - rid: 4247450033601118784
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_1
+        tags:
+        - lastline
+    - rid: 4247450033601118785
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_1
+        tags: []
+    - rid: 4247450033601118786
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_1
+        tags: []
+    - rid: 4247450033601118787
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_1
+        tags: []
+    - rid: 4247450033601118788
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_1
+        tags: []
+    - rid: 4247450033601118789
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_1
+        tags: []
+    - rid: 4247450033601118790
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_1
+        tags: []
+    - rid: 4247450033601118791
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_1
+        tags: []
+    - rid: 4247450033601118792
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_2
+        tags: []
+    - rid: 4247450033601118793
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_2
+        tags: []
+    - rid: 4247450033601118794
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_2
+        tags: []
+    - rid: 4247450033601118795
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_2
+        tags: []
+    - rid: 4247450033601118796
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_2
+        tags: []
+    - rid: 4247450033601118797
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_2
+        tags: []
+    - rid: 4247450033601118798
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_2
+        tags: []
+    - rid: 4247450033601118799
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_2
+        tags: []
+    - rid: 4247450033601118800
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_2
+        tags: []
+    - rid: 4247450033601118801
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_2
+        tags: []
+    - rid: 4247450033601118802
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_2
+        tags: []
+    - rid: 4247450033601118803
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_2
+        tags: []
+    - rid: 4247450033601118804
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_2
+        tags: []
+    - rid: 4247450033601118805
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_2
+        tags: []
+    - rid: 4247450033601118806
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_2
+        tags: []
+    - rid: 4247450033601118807
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_2
+        tags: []
+    - rid: 4247450033601118808
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_2
+        tags: []
+    - rid: 4247450033601118809
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_2
+        tags: []
+    - rid: 4247450033601118810
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_2
+        tags:
+        - lastline
+    - rid: 4247450033601118811
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_2
+        tags: []
+    - rid: 4247450033601118812
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_2
+        tags: []
+    - rid: 4247450033601118813
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_2
+        tags: []
+    - rid: 4247450033601118814
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_2
+        tags: []
+    - rid: 4247450033601118815
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_2
+        tags: []
+    - rid: 4247450033601118816
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_2
+        tags: []
+    - rid: 4247450033601118817
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_2
+        tags: []
+    - rid: 4247450033601118818
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_3
+        tags: []
+    - rid: 4247450033601118819
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_3
+        tags: []
+    - rid: 4247450033601118820
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_3
+        tags:
+        - lastline
+    - rid: 4247450033601118821
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_3
+        tags: []
+    - rid: 4247450033601118822
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_3
+        tags: []
+    - rid: 4247450033601118823
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_3
+        tags: []
+    - rid: 4247450033601118824
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_3
+        tags: []
+    - rid: 4247450033601118825
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_3
+        tags: []
+    - rid: 4247450033601118826
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_3
+        tags: []
+    - rid: 4247450033601118827
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_3
+        tags: []
+    - rid: 4247450033601118828
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_3
+        tags: []
+    - rid: 4247450033601118829
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_3
+        tags: []
+    - rid: 4247450033601118830
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_3
+        tags: []
+    - rid: 4247450033601118831
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_3
+        tags: []
+    - rid: 4247450033601118832
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_3
+        tags: []
+    - rid: 4247450033601118833
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_3
+        tags: []
+    - rid: 4247450033601118834
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_3
+        tags:
+        - lastline
+    - rid: 4247450033601118835
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_3
+        tags: []
+    - rid: 4247450033601118836
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_3
+        tags: []
+    - rid: 4247450033601118837
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_3
+        tags: []
+    - rid: 4247450033601118838
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_3
+        tags: []
+    - rid: 4247450033601118839
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_3
+        tags: []
+    - rid: 4247450033601118840
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_3
+        tags: []
+    - rid: 4247450033601118841
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_3
+        tags: []
+    - rid: 4247450033601118842
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_4
+        tags: []
+    - rid: 4247450033601118843
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_4
+        tags: []
+    - rid: 4247450033601118844
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_4
+        tags: []
+    - rid: 4247450033601118845
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_4
+        tags: []
+    - rid: 4247450033601118846
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_4
+        tags:
+        - lastline
+    - rid: 4247450033601118847
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_4
+        tags: []
+    - rid: 4247450033601118848
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_4
+        tags: []
+    - rid: 4247450033601118849
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_4
+        tags: []
+    - rid: 4247450033601118850
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_4
+        tags: []
+    - rid: 4247450033601118851
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_4
+        tags: []
+    - rid: 4247450033601118852
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_4
+        tags: []
+    - rid: 4247450033601118853
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_4
+        tags: []
+    - rid: 4247450033601118854
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_4
+        tags: []
+    - rid: 4247450033601118855
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_4
+        tags: []
+    - rid: 4247450033601118856
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_4
+        tags: []
+    - rid: 4247450033601118857
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_4
+        tags: []
+    - rid: 4247450033601118858
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_4
+        tags: []
+    - rid: 4247450033601118859
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_4
+        tags: []
+    - rid: 4247450033601118860
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_4
+        tags:
+        - lastline
+    - rid: 4247450033601118861
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_4
+        tags: []
+    - rid: 4247450033601118862
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_4
+        tags: []
+    - rid: 4247450033601118863
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_4
+        tags: []
+    - rid: 4247450033601118864
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_4
+        tags: []
+    - rid: 4247450033601118865
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_4
+        tags: []
+    - rid: 4247450033601118866
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_4
+        tags: []
+    - rid: 4247450033601118867
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_4
+        tags: []
+    - rid: 4247450033601118868
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_4
+        tags:
+        - lastline
+    - rid: 4247450033601118869
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_4
+        tags: []
+    - rid: 4247450033601118870
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_4
+        tags: []
+    - rid: 4247450033601118871
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_4
+        tags: []
+    - rid: 4247450033601118872
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Client_4
+        tags: []
