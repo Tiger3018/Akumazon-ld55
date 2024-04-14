@@ -74,23 +74,6 @@ public class BackgroundDialogue : DialogueViewBase
                 Debug.LogError("Error parse assert, because CharacterName is " + dialogueLine.CharacterName);
                 return;
             }
-            string trimString = dialogueLine.CharacterName.Trim();
-
-            switch (trimString[0])
-            {
-            case 'A':
-                GameSession.Instance.m_enumClient = 0;
-                break;
-            case 'B':
-                GameSession.Instance.m_enumClient = 1;
-                break;
-            case 'C':
-                GameSession.Instance.m_enumClient = 2;
-                break;
-            case 'D':
-                GameSession.Instance.m_enumClient = 3;
-                break;
-            }
         }
     }
 

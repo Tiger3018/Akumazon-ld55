@@ -1,16 +1,16 @@
 using UnityEngine;
 
-public class DebugSession : MonoBehaviour
+public class DebugBehavior : MonoBehaviour
 {
     [SerializeField]
-    internal int m_currentStage, m_currentDialogue, m_upmostDialogue, m_valueSan = 100;
+    internal int m_debugStage, m_debugDialogue, m_debugTextId, m_valueSan = 100;
     [HideInInspector]
     internal int m_enumClient;
-    private void DebugUpdateSessionId(int currentStage, int currentDialogue, int upmostDialogue)
+    private void DebugUpdateSessionId(int currentStage, int currentDialogue, int currentTextId)
     {
-        m_currentStage = currentStage;
-        m_currentDialogue = currentDialogue;
-        m_upmostDialogue = upmostDialogue;
+        m_debugTextId = currentTextId;
+        m_debugDialogue = currentDialogue;
+        m_debugStage = currentStage;
     }
     private void DebugUpdateEnumClient(int enumClient)
     {
@@ -22,7 +22,7 @@ public class DebugSession : MonoBehaviour
     }
     private void Start()
     {
-        GameSession.Instance.DebugSessionId(m_currentStage, m_currentDialogue, m_upmostDialogue);
+        GameSession.Instance.DebugSessionId(m_debugStage, m_debugDialogue, m_debugTextId);
         GameSession.Instance.DebugSan(m_valueSan);
         GameSession.Instance.m_sessionIdChangedEvent += DebugUpdateSessionId;
         GameSession.Instance.m_enumClientChangedEvent += DebugUpdateEnumClient;
@@ -31,12 +31,12 @@ public class DebugSession : MonoBehaviour
 
     private void Update()
     {
-        if (m_currentStage != GameSession.Instance.m_sessionId[0] ||
-            m_currentDialogue != GameSession.Instance.m_sessionId[1] ||
-            m_upmostDialogue != GameSession.Instance.m_sessionId[2])
+        if (m_debugStage != GameSession.Instance.m_sessionId[0] ||
+            m_debugDialogue != GameSession.Instance.m_sessionId[1] ||
+            m_debugTextId != GameSession.Instance.m_sessionId[2])
         {
             GameSession.Instance.m_sessionIdChangedEvent -= DebugUpdateSessionId;
-            GameSession.Instance.DebugSessionId(m_currentStage, m_currentDialogue, m_upmostDialogue);
+            GameSession.Instance.DebugSessionId(m_debugStage, m_debugDialogue, m_debugTextId);
             GameSession.Instance.m_sessionIdChangedEvent += DebugUpdateSessionId;
         }
         if (m_valueSan != GameSession.Instance.m_valueSan)
