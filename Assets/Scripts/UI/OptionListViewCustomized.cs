@@ -9,6 +9,8 @@ public class OptionsListView : DialogueViewBase
 {
     [SerializeField]
     CanvasGroup canvasGroup;
+    [SerializeField]
+    CanvasGroup m_optionGroup;
 
     [SerializeField]
     OptionView optionViewPrefab;
@@ -158,7 +160,7 @@ public class OptionsListView : DialogueViewBase
         OptionView CreateNewOptionView()
         {
             var optionView = Instantiate(optionViewPrefab);
-            optionView.transform.SetParent(transform, false);
+            optionView.transform.SetParent(m_optionGroup.transform, false);
             optionView.transform.SetAsLastSibling();
 
             optionView.OnOptionSelected = OptionViewWasSelected;
@@ -223,10 +225,12 @@ public class OptionsListView : DialogueViewBase
     private void Relayout()
     {
         // Force re-layout
-        var layouts = GetComponentsInChildren<UnityEngine.UI.LayoutGroup>();
+        var layouts = m_optionGroup.GetComponentsInChildren<UnityEngine.UI.LayoutGroup>();
+        Array.Reverse(layouts);
+        Array.Resize(ref layouts, layouts.Length - 1);
 
-        // Perform the first pass of re-layout. This will update the inner horizontal group's sizing, based on the text
-        // size.
+        // Perform the first pass of re-layout. This will update the inner horizontal group's sizing, based on the
+        // text size.
         foreach (var layout in layouts)
         {
             UnityEngine.UI.LayoutRebuilder.ForceRebuildLayoutImmediate(layout.GetComponent<RectTransform>());

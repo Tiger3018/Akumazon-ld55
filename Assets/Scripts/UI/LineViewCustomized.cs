@@ -31,6 +31,12 @@ public class LineViewCustomized : DialogueViewBase
     internal CanvasGroup canvasGroup;
 
     /// <summary>
+    /// Whether this view is designed to the player.
+    /// </summary>
+    [SerializeField]
+    internal bool m_isPlayerView = false;
+
+    /// <summary>
     /// Controls whether the line view should fade in when lines appear, and
     /// fade out when lines disappear.
     /// </summary>
@@ -253,9 +259,13 @@ public class LineViewCustomized : DialogueViewBase
     /// <inheritdoc/>
     public override void DismissLine(Action onDismissalComplete)
     {
+        bool wasInterrupted =
+            BackgroundDialogue.IsNotMyViewCheck(currentLine.CharacterName, m_isPlayerView, onDismissalComplete);
         currentLine = null;
-
-        StartCoroutine(DismissLineInternal(onDismissalComplete));
+        if (!wasInterrupted)
+        {
+            StartCoroutine(DismissLineInternal(onDismissalComplete));
+        }
     }
 
     private IEnumerator DismissLineInternal(Action onDismissalComplete)
@@ -291,6 +301,10 @@ public class LineViewCustomized : DialogueViewBase
         // Cancel all coroutines that we're currently running. This will
         // stop the RunLineInternal coroutine, if it's running.
         StopAllCoroutines();
+        if (BackgroundDialogue.IsNotMyViewCheck(currentLine.CharacterName, m_isPlayerView, onInterruptLineFinished))
+        {
+            return;
+        }
 
         // for now we are going to just immediately show everything
         // later we will make it fade in
@@ -338,6 +352,10 @@ public class LineViewCustomized : DialogueViewBase
         // example, any other RunLine that might be running)
         StopAllCoroutines();
 
+        if (BackgroundDialogue.IsNotMyViewCheck(dialogueLine.CharacterName, m_isPlayerView, onDialogueLineFinished))
+        {
+            return;
+        }
         // Begin running the line as a coroutine.
         StartCoroutine(RunLineInternal(dialogueLine, onDialogueLineFinished));
     }

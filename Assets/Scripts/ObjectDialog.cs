@@ -19,16 +19,19 @@ public class ObjectDialog : ClickDelegate
     {
         foreach (Transform childTransform in m_childTransformAtStart)
         {
-            //childTransform.position = new Vector3(-transform.position.y/transform.localScale.y, -transform.position.x/transform.localScale.x, 0);
-            childTransform.root.position = new Vector3(0, 0, 0);
+            // childTransform.position = new Vector3(-transform.position.y/transform.localScale.y,
+            // -transform.position.x/transform.localScale.x, 0);
+            // childTransform.root.position = new Vector3(0, 0, 0);
+            // childTransform.localScale = new Vector3(0, 0, 0);
             childTransform.gameObject.SetActive(true);
+            // childTransform.gameObject.GetComponent<Animation>().Play("ObjectDialogShow");
         }
     }
     protected override bool onClickUpDelegate()
     {
         GameObject dialog = Instantiate(m_dialogPrefab, m_rayLayer.transform);
         dialog.GetComponent<DialogLayer>().m_initiator = this;
-        dialog.SetActive(true);
+        dialog.transform.position = m_rayLayer.transform.position;
 
         OpenDialog();
         return true;

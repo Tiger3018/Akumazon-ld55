@@ -4,7 +4,13 @@ using UnityEngine;
 
 public class DialogLayer : ClickDelegate
 {
-    [HideInInspector] public ObjectDialog m_initiator;
+    [HideInInspector]
+    public ObjectDialog m_initiator;
+    private Animation m_animation;
+    void Start()
+    {
+        m_animation = GetComponent<Animation>();
+    }
     protected override bool onClickUpDelegate()
     {
         if (m_initiator != null)
