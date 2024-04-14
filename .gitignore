@@ -76,6 +76,7 @@ crashlytics-build.properties
 *.Generated/
 *.Generated.*
 /[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Bb]ackups/
 #.*
 .DS_Store
 !.git*
