@@ -105,7 +105,7 @@ public class GameSession : MonoSingleton<GameSession>
         }
         else
         {
-            m_valueSanChangedEvent?.Invoke(m_valueSan);
+            m_valueSanChangedEvent?.Invoke(m_valueSan - 20);
             m_valueSan -= 20;
         }
     }
@@ -117,7 +117,7 @@ public class GameSession : MonoSingleton<GameSession>
         }
         else
         {
-            m_valueSanChangedEvent?.Invoke(m_valueSan);
+            m_valueSanChangedEvent?.Invoke(m_valueSan + 20);
             m_valueSan += 20;
         }
     }
