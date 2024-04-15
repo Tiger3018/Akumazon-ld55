@@ -20,4 +20,9 @@ public class UIAnimation
         yield return new WaitForSeconds(seconds);
         textMeshProUGUI.text = "";
     }
+    public static IEnumerator WaitSecondsThenEnd(float seconds, GameObject gameObject)
+    {
+        yield return new WaitForSeconds(seconds);
+        gameObject.SetActive(true);
+    }
 }

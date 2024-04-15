@@ -37,9 +37,31 @@ public class MusicBehavior : MonoBehaviour
         m_audioSource.Play();
     }
 
+    private void OnStageChangedMusicFile(int stage)
+    {
+        if (stage == (int)GameSession.SessionStage.Dialogue)
+        {
+            m_audioSource.clip = m_musicClips[2];
+        }
+        else if (stage == (int)GameSession.SessionStage.Summon)
+        {
+            m_audioSource.clip = m_musicClips[1];
+        }
+        else if (stage == (int)GameSession.SessionStage.GoodEnd)
+        {
+            // m_audioSource.clip = m_musicClips[4];
+        }
+        else
+        {
+            // m_audioSource.clip = m_musicClips[0];
+        }
+        m_audioSource.Play();
+    }
+
     private void Start()
     {
         GameSession.Instance.m_valueSanChangedEvent += OnSanChangedMusicFile;
+        GameSession.Instance.m_enumStageChangedEvent += OnStageChangedMusicFile;
         m_audioSource = GetComponent<AudioSource>();
         m_musicClips[0] = Resources.Load<AudioClip>(m_musicPath + m_musicFiles[0]);
         m_musicClips[1] = Resources.Load<AudioClip>(m_musicPath + m_musicFiles[1]);

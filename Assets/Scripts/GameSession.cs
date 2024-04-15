@@ -68,11 +68,11 @@ public class GameSession : MonoSingleton<GameSession>
     }
     public int m_demonSelected;
     public int[][][] m_demonAnswer = new int [4][][] {
-        new int[][] { new int[3] { (int)ViewClick.TriangeEvil, (int)LikeCandle.Love, (int)ColorRiddle.RedFire } },
+        new int[][] { new int[3] { (int)ViewClick.TriangeEvil, (int)LikeCandle.Dollar, (int)ColorRiddle.RedFire } },
         new int[][] { new int[3] { (int)ViewClick.CirclePeace, (int)LikeCandle.Trail, (int)ColorRiddle.BlueDisease } },
-        new int[][] { new int[3] { (int)ViewClick.CirclePeace, (int)LikeCandle.Dollar, (int)ColorRiddle.GreenPlant } },
+        new int[][] { new int[3] { (int)ViewClick.CirclePeace, (int)LikeCandle.Love, (int)ColorRiddle.GreenPlant } },
         new int[][] { new int[3] { (int)ViewClick.Anonymous, (int)LikeCandle.Trail, (int)ColorRiddle.BlueDisease },
-                      new int[3] { (int)ViewClick.TriangeEvil, (int)LikeCandle.Love, (int)ColorRiddle.RedFire } }
+                      new int[3] { (int)ViewClick.TriangeEvil, (int)LikeCandle.Dollar, (int)ColorRiddle.RedFire } }
     };
     private int _m_enumStage = 0;
     private int _m_enumClient = 0;

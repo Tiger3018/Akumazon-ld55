@@ -2,26 +2,71 @@ using System.Text.RegularExpressions;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Summon : ClickDelegate
+public class Summon : MonoBehaviour
 {
 
     private string[] m_demonColor =
         new string[3] { "AOBDHSERLH", "IICODIDDAL", "CRAROMRRWE" }; // Also change in switch case
     private string[] m_demonLike = new string[3] { "11011", "10101", "01010" };
     public TMPro.TextMeshProUGUI m_keyTextUI;
+    public GameObject m_badEndDialogue, m_goodEndDialogue;
+    private GameObject m_continueGameObject, m_retryGameObject;
+    private CanvasGroup m_continueCanvasGroup, m_retryCanvasGroup;
+    private AudioSource m_audioSource;
 
     protected void Start()
     {
-        base.Start();
         GameSession.Instance.m_selectedViewEnum = GameSession.ViewClick.None;
+        GameSession.Instance.m_enumStageChangedEvent += ControlButton;
+        m_continueGameObject = GameObject.Find("ProceedButton");
+        m_retryGameObject = GameObject.Find("RetryButton");
+        m_continueCanvasGroup = m_continueGameObject.GetComponent<CanvasGroup>();
+        m_retryCanvasGroup = m_retryGameObject.GetComponent<CanvasGroup>();
+        // m_continueCanvasGroup.alpha = 0;
+        m_retryCanvasGroup.alpha = 0;
+        m_audioSource = GetComponent<AudioSource>();
     }
 
-    override protected bool onClickUpLeftDelegate()
+    private void ControlButton(int stage)
+    {
+        switch (stage)
+        {
+        case (int)GameSession.SessionStage.Wait:
+        goto case (int)GameSession.SessionStage.DesiredDemon; case (int)GameSession.SessionStage.Summon:
+        goto case (int)GameSession.SessionStage.DesiredDemon; case (int)GameSession.SessionStage.DesiredDemon:
+            if (m_retryCanvasGroup.alpha > 0)
+            {
+                StartCoroutine(UIAnimation.FadeAlpha(m_retryCanvasGroup, 1, 0, .3f));
+            }
+            StartCoroutine(UIAnimation.FadeAlpha(m_continueCanvasGroup, 0, 1, .3f));
+            break;
+        case (int)GameSession.SessionStage.WrongDemon:
+        goto case (int)GameSession.SessionStage.NoDemon; case (int)GameSession.SessionStage.NoDemon:
+            if (m_continueCanvasGroup.alpha > 0)
+            {
+                StartCoroutine(UIAnimation.FadeAlpha(m_continueCanvasGroup, 1, 0, .3f));
+            }
+            StartCoroutine(UIAnimation.FadeAlpha(m_retryCanvasGroup, 0, 1, .3f));
+            break;
+        default:
+            if (m_retryCanvasGroup.alpha > 0)
+            {
+                StartCoroutine(UIAnimation.FadeAlpha(m_retryCanvasGroup, 1, 0, .3f));
+            }
+            if (m_continueCanvasGroup.alpha > 0)
+            {
+                StartCoroutine(UIAnimation.FadeAlpha(m_continueCanvasGroup, 1, 0, .3f));
+            }
+            break;
+        }
+    }
+
+    public void onClickUpLeftDelegate()
     {
         if (m_keyTextUI == null)
         {
             Debug.LogError("Key Text UI is null");
-            return false;
+            return; // false;
         }
         switch (GameSession.Instance.m_enumStage)
         {
@@ -32,9 +77,13 @@ public class Summon : ClickDelegate
             if (GameSession.Instance.m_selectedView == -1 || m_keyTextUI.text.Length != 10)
             {
                 Debug.Log("Summon Failed - May play music here");
-                // play music
+                if (m_audioSource != null)
+                {
+                    m_audioSource.clip = Resources.Load<AudioClip>("Audio/sanloss");
+                    m_audioSource.Play();
+                }
                 m_keyTextUI.GetComponentInParent<KeyTextUI>()?.ClearKey(); // May be NULL TODO
-                return false;
+                return;                                                    // false;
             }
             CheckSummonResult();
             break;
@@ -46,7 +95,7 @@ public class Summon : ClickDelegate
             GameSession.Instance.SetStage((int)GameSession.SessionStage.Summon);
             break;
         }
-        return false;
+        return; // false;
     }
     private void CheckSummonResult()
     {
@@ -60,13 +109,18 @@ public class Summon : ClickDelegate
             checkValidRiddle = m_keyTextUI.text.Equals(m_demonColor[0]) ? (int)GameSession.ColorRiddle.RedFire : -1;
             break;
         case 'I':
-            checkValidRiddle = m_keyTextUI.text.Equals(m_demonColor[1]) ? (int)GameSession.ColorRiddle.GreenPlant : -1;
+            checkValidRiddle = m_keyTextUI.text.Equals(m_demonColor[1]) ? (int)GameSession.ColorRiddle.BlueDisease : -1;
             break;
         case 'C':
-            checkValidRiddle = m_keyTextUI.text.Equals(m_demonColor[2]) ? (int)GameSession.ColorRiddle.BlueDisease : -1;
+            checkValidRiddle = m_keyTextUI.text.Equals(m_demonColor[2]) ? (int)GameSession.ColorRiddle.GreenPlant : -1;
             break;
         default:
             Debug.Log("No Summon There - Riddle Failed");
+            if (m_audioSource != null)
+            {
+                m_audioSource.clip = Resources.Load<AudioClip>("Audio/fault");
+                m_audioSource.Play();
+            }
             GameSession.Instance.SetStage((int)GameSession.SessionStage.NoDemon);
             return;
         }
@@ -91,6 +145,11 @@ public class Summon : ClickDelegate
         else
         {
             Debug.Log("No Summon There - Candle Failed: " + candleString);
+            if (m_audioSource != null)
+            {
+                m_audioSource.clip = Resources.Load<AudioClip>("Audio/fault");
+                m_audioSource.Play();
+            }
             GameSession.Instance.SetStage((int)GameSession.SessionStage.NoDemon);
             return;
         }
@@ -106,6 +165,8 @@ public class Summon : ClickDelegate
         {
             Debug.Log("Summon Success End BAD");
             GameSession.Instance.SetStage((int)GameSession.SessionStage.BadEnd);
+            StartCoroutine(
+                UIAnimation.WaitSecondsThenEnd(3.5f, m_badEndDialogue)); // GameObject.Find("badEndDialogue")));
             return;
         }
         else if (selectedDemon != wantDemon)
@@ -118,6 +179,8 @@ public class Summon : ClickDelegate
         {
             Debug.Log("Summon Success End GOOD");
             GameSession.Instance.SetStage((int)GameSession.SessionStage.GoodEnd);
+            StartCoroutine(
+                UIAnimation.WaitSecondsThenEnd(3.5f, m_goodEndDialogue)); // GameObject.Find("badEndDialogue")));
             return;
         }
         else

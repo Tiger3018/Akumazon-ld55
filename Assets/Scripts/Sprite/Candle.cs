@@ -56,7 +56,14 @@ public class Candle : ClickDelegate
     {
         base.Start();
         m_candleColor = _m_candleColor;
-        m_candleFired = _m_candleFired;
+        if (m_candleFired == _m_candleFired) // Since it might not run this.
+        {
+            GameSession.Instance.m_selectedCandle[_m_candleId] = _m_candleFired;
+        }
+        else
+        {
+            m_candleFired = _m_candleFired;
+        }
         m_candleId = _m_candleId;
         m_candleFireTransform = gameObject.GetComponentsInChildren<Transform>()[1];
         m_audioSource = GetComponent<AudioSource>();
