@@ -3,10 +3,17 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class ObjectDialog : ClickDelegate
+public class RiddleDialog : ClickDelegate
 {
     public GameObject m_dialogPrefab;
     public GameObject m_rayLayer;
+    private AudioSource m_audioSource;
+
+    void Start()
+    {
+        base.Start();
+        m_audioSource = GetComponent<AudioSource>();
+    }
 
     public void CloseDialog()
     {
@@ -17,6 +24,10 @@ public class ObjectDialog : ClickDelegate
     }
     private void OpenDialog()
     {
+        if (m_audioSource != null)
+        {
+            m_audioSource.Play();
+        }
         foreach (Transform childTransform in m_childTransformAtStart)
         {
             // childTransform.position = new Vector3(-transform.position.y/transform.localScale.y,
@@ -27,7 +38,7 @@ public class ObjectDialog : ClickDelegate
             // childTransform.gameObject.GetComponent<Animation>().Play("ObjectDialogShow");
         }
     }
-    protected override bool onClickUpDelegate()
+    protected override bool onClickUpLeftDelegate()
     {
         GameObject dialog = Instantiate(m_dialogPrefab, m_rayLayer.transform);
         dialog.GetComponent<DialogLayer>().m_initiator = this;

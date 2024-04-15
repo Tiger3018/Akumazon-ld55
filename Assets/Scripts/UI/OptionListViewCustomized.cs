@@ -164,6 +164,7 @@ public class OptionsListView : DialogueViewBase
             optionView.transform.SetAsLastSibling();
 
             optionView.OnOptionSelected = OptionViewWasSelected;
+            optionView.OnOptionSelected += OptionViewWasSelected;
             optionViews.Add(optionView);
 
             return optionView;

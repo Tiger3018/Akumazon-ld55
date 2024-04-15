@@ -15,6 +15,8 @@ public class GameSession : MonoSingleton<GameSession>
         DesiredDemon = 10,
         WrongDemon,
         NoDemon,
+        GoodEnd,
+        BadEnd
     }
     public enum SessionDialogue
     {
@@ -31,10 +33,47 @@ public class GameSession : MonoSingleton<GameSession>
     /// Session 3: Current TextId, TODO
     /// Event Behavior: Event2, Event1, EventAll
     /// </summary>
-    internal int[] _m_sessionId = new int[3] { 0, 0, 0 };
-    /// <summary>
-    /// This is only affected by the Transcript.
-    /// </summary>
+    private int[] _m_sessionId = new int[3] { 0, 0, 0 };
+    public enum ColorRiddle
+    {
+        RedFire,
+        BlueDisease,
+        GreenPlant,
+    }
+    // public int m_selectedColor { get; private set; }
+    // public ColorRiddle m_selectedColorEnum
+    //{
+    //     get => (ColorRiddle)m_selectedColor;
+    //     set => m_selectedColor = (int)value;
+    // }
+    public enum LikeCandle
+    {
+        Love,
+        Trail,
+        Dollar
+    }
+    public bool[] m_selectedCandle = new bool[5] { true, true, true, true, true }; // TODO
+    public enum ViewClick
+    {
+        None = -1,
+        CirclePeace,
+        Anonymous,
+        TriangeEvil,
+    }
+    public int m_selectedView { get; private set; }
+    public ViewClick m_selectedViewEnum
+    {
+        get => (ViewClick)m_selectedView;
+        set => m_selectedView = (int)value;
+    }
+    public int m_demonSelected;
+    public int[][][] m_demonAnswer = new int [4][][] {
+        new int[][] { new int[3] { (int)ViewClick.TriangeEvil, (int)LikeCandle.Love, (int)ColorRiddle.RedFire } },
+        new int[][] { new int[3] { (int)ViewClick.CirclePeace, (int)LikeCandle.Trail, (int)ColorRiddle.BlueDisease } },
+        new int[][] { new int[3] { (int)ViewClick.CirclePeace, (int)LikeCandle.Dollar, (int)ColorRiddle.GreenPlant } },
+        new int[][] { new int[3] { (int)ViewClick.Anonymous, (int)LikeCandle.Trail, (int)ColorRiddle.BlueDisease },
+                      new int[3] { (int)ViewClick.TriangeEvil, (int)LikeCandle.Love, (int)ColorRiddle.RedFire } }
+    };
     private int _m_enumStage = 0;
     private int _m_enumClient = 0;
     private int _m_valueSan = 100;
@@ -77,11 +116,12 @@ public class GameSession : MonoSingleton<GameSession>
 
     public void SetStage(int stage)
     {
-        if (stage < 0 || stage > 5 || stage == m_sessionId[0])
+        if (stage < 0 || stage > 15 || stage == m_sessionId[0])
         {
             Debug.LogError("Invalid stage: " + stage + " or same stage as before.");
             return;
         }
+        m_enumStage = stage;
         m_sessionIdChangedEvent?.Invoke(stage, m_sessionId[1], m_sessionId[2]);
         m_sessionId[0] = stage;
     }
@@ -125,6 +165,7 @@ public class GameSession : MonoSingleton<GameSession>
 
     public void DebugSessionId(int currentStage, int currentDialogue, int currentTextId)
     {
+        Debug.Log("DebugSessionId: " + currentStage + " " + currentDialogue + " " + currentTextId);
         m_enumClient = currentDialogue;
         m_enumStage = currentStage;
         m_sessionIdChangedEvent?.Invoke(currentStage, currentDialogue, currentTextId);

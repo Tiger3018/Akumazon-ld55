@@ -39,14 +39,14 @@ public class EnumClient : MonoBehaviour
         {
             m_animator.SetFloat("Speed", 1);
             m_animator.Play("ClientAnimation", 0, 0f); // Don't know why 0f is needed.
-            Debug.Log("EnumClient changed: Now removing.");
+            // Debug.Log("EnumClient changed: Now removing.");
             yield return new WaitUntil(() => m_animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1f);
             oldEnumClient.SetActive(false);
         }
         if (newEnumClient)
         {
             newEnumClient.SetActive(true);
-            Debug.Log("EnumClient changed: Now appearing.");
+            // Debug.Log("EnumClient changed: Now appearing.");
             m_animator.SetFloat("Speed", -1);
             m_animator.Play("ClientAnimation", 0, 1f);
             //  https://forum.unity.com/threads/wait-until-an-animation-is-finished.529093/#post-7539659

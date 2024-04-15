@@ -7,22 +7,23 @@ using UnityEngine;
 public class ClickDelegate : MonoBehaviour
 {
     // Return True if this doen't block deepen click event
-    public delegate bool ClickUpEventDelegate();
-
+    public delegate bool ClickUpLeftEventDelegate();
+    public delegate bool ClickUpRightEventDelegate();
 
     private ClickDelegate m_clickScript;
     protected Transform[] m_childTransformAtStart;
-    public event ClickUpEventDelegate m_clickEvent;
+    public event ClickUpLeftEventDelegate m_clickLeftEvent;
+    public event ClickUpRightEventDelegate m_clickRightEvent;
 
     // Start is called before the first frame update
-    void Start()
+    protected void Start()
     {
         ClickDelegate[] clickScriptList = GetComponents<ClickDelegate>();
         foreach (ClickDelegate clickScript in clickScriptList)
-        { 
+        {
             if (clickScript.GetType().ToString() != "ClickDelegate") // child will also use this code
             {
-                if(m_clickScript != null)
+                if (m_clickScript != null)
                 {
                     Debug.Log("Multiple click script detected. Will omit" + m_clickScript.GetType().ToString());
                 }
@@ -31,8 +32,10 @@ public class ClickDelegate : MonoBehaviour
         }
         if (m_clickScript != null)
         {
-            ClickUpEventDelegate delegateDef = m_clickScript.onClickUpDelegate;
-            m_clickEvent = delegateDef;
+            ClickUpLeftEventDelegate delegateLeftDef = m_clickScript.onClickUpLeftDelegate;
+            ClickUpRightEventDelegate delegateRightDef = m_clickScript.onClickUpRightDelegate;
+            m_clickLeftEvent = delegateLeftDef;
+            m_clickRightEvent = delegateRightDef;
         }
         else
         {
@@ -47,26 +50,52 @@ public class ClickDelegate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
     }
 
-    //public static Vector2 ReadValueVector2(InputAction actionName)
+    // public static Vector2 ReadValueVector2(InputAction actionName)
     //{
-    //    return actionName.ReadValue<Vector2>();
-    //}
+    //     return actionName.ReadValue<Vector2>();
+    // }
 
-    public bool ClickUpProcess()
+    public bool ClickUpProcess(bool isLeft)
     {
-        if (m_clickEvent != null)
+        if (isLeft)
         {
-            return m_clickEvent.Invoke();
-        } else
+            return ClickUpLeftProcess();
+        }
+        else
         {
-            Debug.Log("Null ClickEvent");
+            if (m_clickRightEvent != null)
+            {
+                return m_clickRightEvent.Invoke();
+            }
+            else
+            {
+                Debug.Log("Null ClickRightEvent");
+                return true;
+            }
+        }
+    }
+    public bool ClickUpLeftProcess()
+    {
+
+        if (m_clickLeftEvent != null)
+        {
+            return m_clickLeftEvent.Invoke();
+        }
+        else
+        {
+            Debug.Log("Null ClickLeftEvent");
             return true;
         }
     }
 
-    protected virtual bool onClickUpDelegate() { return true; }
-
+    protected virtual bool onClickUpLeftDelegate()
+    {
+        return true;
+    }
+    protected virtual bool onClickUpRightDelegate()
+    {
+        return true;
+    }
 }

@@ -5,13 +5,13 @@ using UnityEngine;
 public class DialogLayer : ClickDelegate
 {
     [HideInInspector]
-    public ObjectDialog m_initiator;
+    public RiddleDialog m_initiator;
     private Animation m_animation;
-    void Start()
+    private void Start()
     {
         m_animation = GetComponent<Animation>();
     }
-    protected override bool onClickUpDelegate()
+    protected override bool onClickUpLeftDelegate()
     {
         if (m_initiator != null)
         {

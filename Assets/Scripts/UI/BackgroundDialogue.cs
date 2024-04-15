@@ -44,7 +44,7 @@ public class BackgroundDialogue : DialogueViewBase
 
     public static bool IsNotMyViewCheck(string characterName, bool isPlayerView, System.Action onAction)
     {
-        if (characterName == "玩家" || characterName == "Player")
+        if (characterName == "您" || characterName == "You")
         {
             if (!isPlayerView)
             {

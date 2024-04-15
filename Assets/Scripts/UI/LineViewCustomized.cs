@@ -360,6 +360,30 @@ public class LineViewCustomized : DialogueViewBase
         StartCoroutine(RunLineInternal(dialogueLine, onDialogueLineFinished));
     }
 
+    public override void RunOptions(DialogueOption[] dialogueOptions, Action<int> onOptionSelected)
+    {
+        if (m_isPlayerView)
+        {
+            lineText.text = "";
+            if (useFadeEffect)
+            {
+                StartCoroutine(Effects.FadeAlpha(canvasGroup, 0, 1, fadeInTime, currentStopToken));
+            }
+            canvasGroup.alpha = 1f;
+            canvasGroup.blocksRaycasts = true;
+        }
+    }
+
+    public void RunOptionsEnd()
+    {
+        if (useFadeEffect)
+        {
+            StartCoroutine(Effects.FadeAlpha(canvasGroup, 0, 1, fadeInTime, currentStopToken));
+        }
+        canvasGroup.alpha = 1f;
+        canvasGroup.blocksRaycasts = true;
+    }
+
     private IEnumerator RunLineInternal(LocalizedLine dialogueLine, Action onDialogueLineFinished)
     {
         IEnumerator PresentLine()

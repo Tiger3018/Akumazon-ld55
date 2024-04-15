@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Linq;
 using UnityEngine;
 
 public class DebugBehavior : MonoBehaviour
@@ -20,9 +22,14 @@ public class DebugBehavior : MonoBehaviour
     {
         m_valueSan = valueSan;
     }
+    private IEnumerator Delay10DebugSessionId(int currentStage, int currentDialogue, int currentTextId)
+    {
+        yield return new WaitForSeconds(0.01f);
+        GameSession.Instance.DebugSessionId(m_debugStage, m_debugDialogue, m_debugTextId);
+    }
     private void Start()
     {
-        GameSession.Instance.DebugSessionId(m_debugStage, m_debugDialogue, m_debugTextId);
+        StartCoroutine(Delay10DebugSessionId(m_debugStage, m_debugDialogue, m_debugTextId));
         GameSession.Instance.DebugSan(m_valueSan);
         GameSession.Instance.m_sessionIdChangedEvent += DebugUpdateSessionId;
         GameSession.Instance.m_enumClientChangedEvent += DebugUpdateEnumClient;

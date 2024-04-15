@@ -2,7 +2,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class KeyReplayTextUI : MonoBehaviour
+public class KeyTextUI : MonoBehaviour
 {
     public GameObject m_inputFieldObject;
     private TMP_InputField m_inputField;
@@ -17,8 +17,7 @@ public class KeyReplayTextUI : MonoBehaviour
     private RectTransform m_rectTransform;
     private uint m_keyLength;
     private string m_keySaved;
-    private string[] m_demonColor =
-        new string[3] { "AOBDHSERLH", "IICODIDDAL", "CRAROMRRWE" }; // RBG, Fire Disease Plant
+    private AudioSource m_audioSource;
 
     private void Awake()
     {
@@ -29,6 +28,7 @@ public class KeyReplayTextUI : MonoBehaviour
         // m_overlayRectTransform = m_overlayObject.GetComponent<RectTransform>();
         m_textMeshProUGUI = GetComponent<TextMeshProUGUI>();
         m_rectTransform = GetComponent<RectTransform>();
+        m_audioSource = GetComponent<AudioSource>();
         m_parentCanvasGroup.alpha = 0;
         m_parentCanvasGroup.interactable = false;
         m_parentCanvasGroup.blocksRaycasts = false;
@@ -53,9 +53,9 @@ public class KeyReplayTextUI : MonoBehaviour
 
     private void UpdateFocus(int stage)
     {
+        Debug.Log("KeyTextUI is handling: " + stage);
         if (stage == (int)GameSession.SessionStage.Summon)
         {
-            // Debug.Log("Summon");
             m_keyLength = 0;
             m_keySaved = "";
             m_inputField.text = "";
@@ -92,7 +92,7 @@ public class KeyReplayTextUI : MonoBehaviour
 
     public void UpdateWhenChanged(string givenStr)
     {
-        Debug.Log("Changed: " + givenStr);
+        Debug.Log("Key Changed: " + givenStr);
         if (givenStr.Length == m_keyLength)
         {
             // m_rectTransform.sizeDelta = new Vector2(0, 0);
@@ -103,7 +103,7 @@ public class KeyReplayTextUI : MonoBehaviour
         {
             replaceStr = m_keySaved;
         }
-        else if (givenStr.Length == 1)
+        else if (givenStr.Length == 1 && replaceStr[0] >= 'A' && replaceStr[0] <= 'Z')
         {
             StartCoroutine(UIAnimation.FadeAlpha(m_parentCanvasGroup, 0, 1, m_fadeTime));
             m_parentCanvasGroup.blocksRaycasts = true;
@@ -138,6 +138,12 @@ public class KeyReplayTextUI : MonoBehaviour
             }
         }
         m_keySaved = replaceStr;
+        if (m_keyLength != (uint)replaceStr.Length &&
+            m_audioSource !=
+                null) // && m_audioSource.clip != null && m_audioSource.clip.loadState == AudioDataLoadState.Loaded)
+        {
+            m_audioSource.Play();
+        }
         m_keyLength = (uint)replaceStr.Length;
         m_inputField.text = replaceStr;
         // https://discussions.unity.com/t/inputfield-disable-selecting/196793/2
@@ -160,6 +166,10 @@ public class KeyReplayTextUI : MonoBehaviour
 
     public void ClearKey()
     {
+        if (m_keyLength == 0)
+        {
+            return;
+        }
         StartCoroutine(UIAnimation.FadeAlpha(m_parentCanvasGroup, 1, 0, m_fadeTime));
         m_keySaved = "";
         m_keyLength = 0;
