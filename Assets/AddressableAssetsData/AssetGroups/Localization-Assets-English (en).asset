@@ -16,7 +16,13 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 0c1aa7d6d5c484185a226f3df64d3dfb
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: bfe9c405d0efe4cf491a5b0969407453
+    m_Address: StampatelloFaceto SDF
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 1d0c0453c58684df78aaba9c6dcfaf13, type: 2}
   m_SchemaSet:

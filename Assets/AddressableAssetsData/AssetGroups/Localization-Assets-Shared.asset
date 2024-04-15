@@ -27,6 +27,13 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba14ccd084d234e4b9034c2524472d53
+    m_Address: Yozai-Regular SDF
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-Hans
+    - Locale-zh-Hant
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 1d0c0453c58684df78aaba9c6dcfaf13, type: 2}
   m_SchemaSet:

@@ -22,6 +22,38 @@ MonoBehaviour:
     m_Localized: ff47a9dccf819438ebbe75a7e8193299
     m_Metadata:
       m_Items: []
+  - m_Id: 580927460728832
+    m_Localized: ba14ccd084d234e4b9034c2524472d53
+    m_Metadata:
+      m_Items: []
+  - m_Id: 580927586557952
+    m_Localized: 'ba14ccd084d234e4b9034c2524472d53[Yozai-Regular SDF Material]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 582067942318080
+    m_Localized: ba14ccd084d234e4b9034c2524472d53
+    m_Metadata:
+      m_Items: []
+  - m_Id: 582067971678208
+    m_Localized: 'ba14ccd084d234e4b9034c2524472d53[Yozai-Regular SDF Material]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 582640129269760
+    m_Localized: ba14ccd084d234e4b9034c2524472d53
+    m_Metadata:
+      m_Items: []
+  - m_Id: 582640141852672
+    m_Localized: 'ba14ccd084d234e4b9034c2524472d53[Yozai-Regular SDF Material]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 584480027828224
+    m_Localized: ba14ccd084d234e4b9034c2524472d53
+    m_Metadata:
+      m_Items: []
+  - m_Id: 584480069771264
+    m_Localized: 'ba14ccd084d234e4b9034c2524472d53[Yozai-Regular SDF Material]'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

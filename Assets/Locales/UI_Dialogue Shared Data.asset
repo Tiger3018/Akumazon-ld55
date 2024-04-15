@@ -19,492 +19,500 @@ MonoBehaviour:
     m_Key: line:intro
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118775
+      - rid: 4247450054528335961
   - m_Id: 289324615589888
     m_Key: line:C1-0-greating
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118776
+      - rid: 4247450054528335962
   - m_Id: 289324623978496
     m_Key: line:C1-1-response
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118777
+      - rid: 4247450054528335963
   - m_Id: 289324623978497
     m_Key: line:C1-2-startcomplain
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118778
+      - rid: 4247450054528335964
   - m_Id: 289324623978498
     m_Key: line:C1-3-rooster
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118779
+      - rid: 4247450054528335965
   - m_Id: 289324623978499
     m_Key: line:C1-4-dog
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118780
+      - rid: 4247450054528335966
   - m_Id: 289324623978500
     m_Key: line:C1-5-milk
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118781
+      - rid: 4247450054528335967
   - m_Id: 289324623978501
     m_Key: line:C1-6-poor
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118782
+      - rid: 4247450054528335968
   - m_Id: 289324623978502
     m_Key: line:C1-7-fire
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118783
+      - rid: 4247450054528335969
   - m_Id: 289324623978503
     m_Key: line:C1-8-coin
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118784
+      - rid: 4247450054528335970
   - m_Id: 289324623978504
     m_Key: line:C1-9-option1
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118785
+      - rid: 4247450054528335971
   - m_Id: 289324623978505
     m_Key: line:C1-10-end
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118786
+      - rid: 4247450054528335972
   - m_Id: 289324623978506
     m_Key: line:C1-11-option2
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118787
+      - rid: 4247450054528335973
   - m_Id: 289324623978507
     m_Key: line:C1-12-notenough
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118788
+      - rid: 4247450054528335974
   - m_Id: 289324623978508
     m_Key: line:C1-13-moregold
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118789
+      - rid: 4247450054528335975
   - m_Id: 289324623978509
     m_Key: line:C1-14-tiger3018
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118790
+      - rid: 4247450054528335976
   - m_Id: 289324623978510
     m_Key: line:C1-15-end
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118791
+      - rid: 4247450054528335977
   - m_Id: 289324623978511
     m_Key: line:C2-0-hello
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118792
+      - rid: 4247450054528335978
   - m_Id: 289324623978512
     m_Key: line:C2-1-akuma
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118793
+      - rid: 4247450054528335979
   - m_Id: 289324623978513
     m_Key: line:C2-2-firsttime
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118794
+      - rid: 4247450054528335980
   - m_Id: 289324623978514
     m_Key: line:C2-3-whatswrong
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118795
+      - rid: 4247450054528335981
   - m_Id: 289324623978515
     m_Key: line:C2-4-priest
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118796
+      - rid: 4247450054528335982
   - m_Id: 289324623978516
     m_Key: line:C2-5-rainy
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118797
+      - rid: 4247450054528335983
   - m_Id: 289324623978517
     m_Key: line:C2-6-nofire
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118798
+      - rid: 4247450054528335984
   - m_Id: 289324623978518
     m_Key: line:C2-7-cold
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118799
+      - rid: 4247450054528335985
   - m_Id: 289324623978519
     m_Key: line:C2-8-church
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118800
+      - rid: 4247450054528335986
   - m_Id: 289324623978520
     m_Key: line:C2-9-fire
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118801
+      - rid: 4247450054528335987
   - m_Id: 289324623978521
     m_Key: line:C2-10-question
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118802
+      - rid: 4247450054528335988
   - m_Id: 289324623978522
     m_Key: line:C2-11-star
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118803
+      - rid: 4247450054528335989
   - m_Id: 289324623978523
     m_Key: line:C2-12-goodpriest
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118804
+      - rid: 4247450054528335990
   - m_Id: 289324623978524
     m_Key: line:C2-13-priestgood
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118805
+      - rid: 4247450054528335991
   - m_Id: 289324623978525
     m_Key: line:C2-14-silence
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118806
+      - rid: 4247450054528335992
   - m_Id: 289324623978526
     m_Key: line:C2-15-cure
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118807
+      - rid: 4247450054528335993
   - m_Id: 289324623978527
     m_Key: line:C2-16-hard
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118808
+      - rid: 4247450054528335994
   - m_Id: 289324623978528
     m_Key: line:C2-17-ok
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118809
+      - rid: 4247450054528335995
   - m_Id: 289324623978529
     m_Key: line:C2-18-tapestry
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118810
+      - rid: 4247450054528335996
   - m_Id: 289324623978530
     m_Key: line:C2-19-option1
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118811
+      - rid: 4247450054528335997
   - m_Id: 289324623978531
     m_Key: line:C2-20-ok
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118812
+      - rid: 4247450054528335998
   - m_Id: 289324623978532
     m_Key: line:C2-21-option2
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118813
+      - rid: 4247450054528335999
   - m_Id: 289324623978533
     m_Key: line:C2-22-yesterday
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118814
+      - rid: 4247450054528336000
   - m_Id: 289324623978534
     m_Key: line:C2-23-nomoney
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118815
+      - rid: 4247450054528336001
   - m_Id: 289324623978535
     m_Key: line:C2-24-fine
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118816
+      - rid: 4247450054528336002
   - m_Id: 289324623978536
     m_Key: line:C2-25-end
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118817
+      - rid: 4247450054528336003
   - m_Id: 289324623978537
     m_Key: line:C3-0-hello
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118818
+      - rid: 4247450054528336004
   - m_Id: 289324623978538
     m_Key: line:C3-1-hello
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118819
+      - rid: 4247450054528336005
   - m_Id: 289324623978539
     m_Key: line:C3-2-pearl
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118820
+      - rid: 4247450054528336006
   - m_Id: 289324623978540
     m_Key: line:C3-3-option1
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118821
+      - rid: 4247450054528336007
   - m_Id: 289324623978541
     m_Key: line:C3-4-accept
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118822
+      - rid: 4247450054528336008
   - m_Id: 289324623978542
     m_Key: line:C3-5-option1
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118823
+      - rid: 4247450054528336009
   - m_Id: 289324623978543
     m_Key: line:C3-6-tell
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118824
+      - rid: 4247450054528336010
   - m_Id: 289324623978544
     m_Key: line:C3-7-lover
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118825
+      - rid: 4247450054528336011
   - m_Id: 289324623978545
     m_Key: line:C3-8-father
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118826
+      - rid: 4247450054528336012
   - m_Id: 289324623978546
     m_Key: line:C3-9-newboy
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118827
+      - rid: 4247450054528336013
   - m_Id: 289324623978547
     m_Key: line:C3-10-stalker
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118828
+      - rid: 4247450054528336014
   - m_Id: 289324623978548
     m_Key: line:C3-11-weird
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118829
+      - rid: 4247450054528336015
   - m_Id: 289324623978549
     m_Key: line:C3-12-satisfied
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118830
+      - rid: 4247450054528336016
   - m_Id: 289324623978550
     m_Key: line:C3-13-force
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118831
+      - rid: 4247450054528336017
   - m_Id: 289324623978551
     m_Key: line:C3-14-breakup
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118832
+      - rid: 4247450054528336018
   - m_Id: 289324623978552
     m_Key: line:C3-15-growcrops
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118833
+      - rid: 4247450054528336019
   - m_Id: 289324623978553
     m_Key: line:C3-16-growflowers
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118834
+      - rid: 4247450054528336020
   - m_Id: 289324623978554
     m_Key: line:C3-17-option1
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118835
+      - rid: 4247450054528336021
   - m_Id: 289324623978555
     m_Key: line:C3-18-option2
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118836
+      - rid: 4247450054528336022
   - m_Id: 289324623978556
     m_Key: line:C3-19-notenough
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118837
+      - rid: 4247450054528336023
   - m_Id: 289324623978557
     m_Key: line:C3-20-ah
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118838
+      - rid: 4247450054528336024
   - m_Id: 289324623978558
     m_Key: line:C3-21-bracelet
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118839
+      - rid: 4247450054528336025
   - m_Id: 289324623978559
     m_Key: line:C3-22-fine
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118840
+      - rid: 4247450054528336026
   - m_Id: 289324623978560
     m_Key: line:C3-23-end
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118841
+      - rid: 4247450054528336027
   - m_Id: 289324623978561
     m_Key: line:C4-0-hello
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118842
+      - rid: 4247450054528336028
   - m_Id: 289324623978562
     m_Key: line:C4-1-hello
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118843
+      - rid: 4247450054528336029
   - m_Id: 289324623978563
     m_Key: line:C4-2-goodjob
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118844
+      - rid: 4247450054528336030
   - m_Id: 289324623978564
     m_Key: line:C4-3-sure
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118845
+      - rid: 4247450054528336031
   - m_Id: 289324623978565
     m_Key: line:C4-4-daughter
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118846
+      - rid: 4247450054528336032
   - m_Id: 289324623978566
     m_Key: line:C4-5-option1
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118847
+      - rid: 4247450054528336033
   - m_Id: 289324623978567
     m_Key: line:C4-6-silence
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118848
+      - rid: 4247450054528336034
   - m_Id: 289324623978568
     m_Key: line:C4-7-option2
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118849
+      - rid: 4247450054528336035
   - m_Id: 289324623978569
     m_Key: line:C4-8-seenbefore
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118850
+      - rid: 4247450054528336036
   - m_Id: 289324623978570
     m_Key: line:C4-9-church
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118851
+      - rid: 4247450054528336037
   - m_Id: 289324623978571
     m_Key: line:C4-10-silence
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118852
+      - rid: 4247450054528336038
   - m_Id: 289324623978572
     m_Key: line:C4-11-angel
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118853
+      - rid: 4247450054528336039
   - m_Id: 289324623978573
     m_Key: line:C4-12-badboys
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118854
+      - rid: 4247450054528336040
   - m_Id: 289324623978574
     m_Key: line:C4-13-badbadboys
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118855
+      - rid: 4247450054528336041
   - m_Id: 289324623978575
     m_Key: line:C4-14-richguy
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118856
+      - rid: 4247450054528336042
   - m_Id: 289324623978576
     m_Key: line:C4-15-stupid
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118857
+      - rid: 4247450054528336043
   - m_Id: 289324623978577
     m_Key: line:C4-16-myprecious
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118858
+      - rid: 4247450054528336044
   - m_Id: 289324623978578
     m_Key: line:C4-17-furious
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118859
+      - rid: 4247450054528336045
   - m_Id: 289324623978579
     m_Key: line:C4-18-burn
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118860
+      - rid: 4247450054528336046
   - m_Id: 289324623978580
     m_Key: line:C4-19-option1
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118861
+      - rid: 4247450054528336047
   - m_Id: 289324623978581
     m_Key: line:C4-20-silence
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118862
+      - rid: 4247450054528336048
   - m_Id: 289324623978582
     m_Key: line:C4-21-option2
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118863
+      - rid: 4247450054528336049
   - m_Id: 289324623978583
     m_Key: line:C4-22-why
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118864
+      - rid: 4247450054528336050
   - m_Id: 289324623978584
     m_Key: line:C4-23-protect
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118865
+      - rid: 4247450054528336051
   - m_Id: 289324623978585
     m_Key: line:C4-24-silence
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118866
+      - rid: 4247450054528336052
   - m_Id: 289324623978586
     m_Key: line:C4-25-ring
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118867
+      - rid: 4247450054528336053
   - m_Id: 289324623978587
     m_Key: line:C4-26-anything
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118868
+      - rid: 4247450054528336054
   - m_Id: 289324623978588
     m_Key: line:C4-27-option1
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118869
+      - rid: 4247450054528336055
   - m_Id: 289324623978589
     m_Key: line:C4-28-ok
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118870
+      - rid: 4247450054528336056
   - m_Id: 289324623978590
     m_Key: line:C4-29-option2
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118871
+      - rid: 4247450054528336057
   - m_Id: 289324623978591
     m_Key: line:C4-30-ok?
     m_Metadata:
       m_Items:
-      - rid: 4247450033601118872
+      - rid: 4247450054528336058
+  - m_Id: 582721280663552
+    m_Key: YouDialogue/Prefab Mode in Context/YouDialogue/LineText 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 618794354466816
+    m_Key: MainScene/Canvas/Dialogue/OptionDialogue/OptionLineText
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
@@ -516,499 +524,499 @@ MonoBehaviour:
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
       data:
         m_CustomEpoch: 1713015401733
-    - rid: 4247450033601118775
+    - rid: 4247450054528335961
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Start
         tags: []
-    - rid: 4247450033601118776
+    - rid: 4247450054528335962
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_1
         tags: []
-    - rid: 4247450033601118777
+    - rid: 4247450054528335963
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_1
         tags: []
-    - rid: 4247450033601118778
+    - rid: 4247450054528335964
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_1
         tags: []
-    - rid: 4247450033601118779
+    - rid: 4247450054528335965
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_1
         tags: []
-    - rid: 4247450033601118780
+    - rid: 4247450054528335966
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_1
         tags: []
-    - rid: 4247450033601118781
+    - rid: 4247450054528335967
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_1
         tags: []
-    - rid: 4247450033601118782
+    - rid: 4247450054528335968
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_1
         tags: []
-    - rid: 4247450033601118783
+    - rid: 4247450054528335969
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_1
         tags: []
-    - rid: 4247450033601118784
+    - rid: 4247450054528335970
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_1
         tags:
         - lastline
-    - rid: 4247450033601118785
+    - rid: 4247450054528335971
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_1
         tags: []
-    - rid: 4247450033601118786
+    - rid: 4247450054528335972
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_1
         tags: []
-    - rid: 4247450033601118787
+    - rid: 4247450054528335973
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_1
         tags: []
-    - rid: 4247450033601118788
+    - rid: 4247450054528335974
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_1
         tags: []
-    - rid: 4247450033601118789
+    - rid: 4247450054528335975
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_1
         tags: []
-    - rid: 4247450033601118790
+    - rid: 4247450054528335976
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_1
         tags: []
-    - rid: 4247450033601118791
+    - rid: 4247450054528335977
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_1
         tags: []
-    - rid: 4247450033601118792
+    - rid: 4247450054528335978
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_2
         tags: []
-    - rid: 4247450033601118793
+    - rid: 4247450054528335979
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_2
         tags: []
-    - rid: 4247450033601118794
+    - rid: 4247450054528335980
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_2
         tags: []
-    - rid: 4247450033601118795
+    - rid: 4247450054528335981
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_2
         tags: []
-    - rid: 4247450033601118796
+    - rid: 4247450054528335982
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_2
         tags: []
-    - rid: 4247450033601118797
+    - rid: 4247450054528335983
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_2
         tags: []
-    - rid: 4247450033601118798
+    - rid: 4247450054528335984
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_2
         tags: []
-    - rid: 4247450033601118799
+    - rid: 4247450054528335985
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_2
         tags: []
-    - rid: 4247450033601118800
+    - rid: 4247450054528335986
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_2
         tags: []
-    - rid: 4247450033601118801
+    - rid: 4247450054528335987
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_2
         tags: []
-    - rid: 4247450033601118802
+    - rid: 4247450054528335988
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_2
         tags: []
-    - rid: 4247450033601118803
+    - rid: 4247450054528335989
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_2
         tags: []
-    - rid: 4247450033601118804
+    - rid: 4247450054528335990
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_2
         tags: []
-    - rid: 4247450033601118805
+    - rid: 4247450054528335991
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_2
         tags: []
-    - rid: 4247450033601118806
+    - rid: 4247450054528335992
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_2
         tags: []
-    - rid: 4247450033601118807
+    - rid: 4247450054528335993
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_2
         tags: []
-    - rid: 4247450033601118808
+    - rid: 4247450054528335994
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_2
         tags: []
-    - rid: 4247450033601118809
+    - rid: 4247450054528335995
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_2
         tags: []
-    - rid: 4247450033601118810
+    - rid: 4247450054528335996
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_2
         tags:
         - lastline
-    - rid: 4247450033601118811
+    - rid: 4247450054528335997
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_2
         tags: []
-    - rid: 4247450033601118812
+    - rid: 4247450054528335998
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_2
         tags: []
-    - rid: 4247450033601118813
+    - rid: 4247450054528335999
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_2
         tags: []
-    - rid: 4247450033601118814
+    - rid: 4247450054528336000
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_2
         tags: []
-    - rid: 4247450033601118815
+    - rid: 4247450054528336001
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_2
         tags: []
-    - rid: 4247450033601118816
+    - rid: 4247450054528336002
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_2
         tags: []
-    - rid: 4247450033601118817
+    - rid: 4247450054528336003
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_2
         tags: []
-    - rid: 4247450033601118818
+    - rid: 4247450054528336004
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_3
         tags: []
-    - rid: 4247450033601118819
+    - rid: 4247450054528336005
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_3
         tags: []
-    - rid: 4247450033601118820
+    - rid: 4247450054528336006
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_3
         tags:
         - lastline
-    - rid: 4247450033601118821
+    - rid: 4247450054528336007
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_3
         tags: []
-    - rid: 4247450033601118822
+    - rid: 4247450054528336008
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_3
         tags: []
-    - rid: 4247450033601118823
+    - rid: 4247450054528336009
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_3
         tags: []
-    - rid: 4247450033601118824
+    - rid: 4247450054528336010
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_3
         tags: []
-    - rid: 4247450033601118825
+    - rid: 4247450054528336011
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_3
         tags: []
-    - rid: 4247450033601118826
+    - rid: 4247450054528336012
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_3
         tags: []
-    - rid: 4247450033601118827
+    - rid: 4247450054528336013
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_3
         tags: []
-    - rid: 4247450033601118828
+    - rid: 4247450054528336014
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_3
         tags: []
-    - rid: 4247450033601118829
+    - rid: 4247450054528336015
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_3
         tags: []
-    - rid: 4247450033601118830
+    - rid: 4247450054528336016
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_3
         tags: []
-    - rid: 4247450033601118831
+    - rid: 4247450054528336017
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_3
         tags: []
-    - rid: 4247450033601118832
+    - rid: 4247450054528336018
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_3
         tags: []
-    - rid: 4247450033601118833
+    - rid: 4247450054528336019
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_3
         tags: []
-    - rid: 4247450033601118834
+    - rid: 4247450054528336020
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_3
         tags:
         - lastline
-    - rid: 4247450033601118835
+    - rid: 4247450054528336021
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_3
         tags: []
-    - rid: 4247450033601118836
+    - rid: 4247450054528336022
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_3
         tags: []
-    - rid: 4247450033601118837
+    - rid: 4247450054528336023
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_3
         tags: []
-    - rid: 4247450033601118838
+    - rid: 4247450054528336024
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_3
         tags: []
-    - rid: 4247450033601118839
+    - rid: 4247450054528336025
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_3
         tags: []
-    - rid: 4247450033601118840
+    - rid: 4247450054528336026
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_3
         tags: []
-    - rid: 4247450033601118841
+    - rid: 4247450054528336027
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_3
         tags: []
-    - rid: 4247450033601118842
+    - rid: 4247450054528336028
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_4
         tags: []
-    - rid: 4247450033601118843
+    - rid: 4247450054528336029
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_4
         tags: []
-    - rid: 4247450033601118844
+    - rid: 4247450054528336030
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_4
         tags: []
-    - rid: 4247450033601118845
+    - rid: 4247450054528336031
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_4
         tags: []
-    - rid: 4247450033601118846
+    - rid: 4247450054528336032
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_4
         tags:
         - lastline
-    - rid: 4247450033601118847
+    - rid: 4247450054528336033
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_4
         tags: []
-    - rid: 4247450033601118848
+    - rid: 4247450054528336034
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_4
         tags: []
-    - rid: 4247450033601118849
+    - rid: 4247450054528336035
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_4
         tags: []
-    - rid: 4247450033601118850
+    - rid: 4247450054528336036
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_4
         tags: []
-    - rid: 4247450033601118851
+    - rid: 4247450054528336037
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_4
         tags: []
-    - rid: 4247450033601118852
+    - rid: 4247450054528336038
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_4
         tags: []
-    - rid: 4247450033601118853
+    - rid: 4247450054528336039
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_4
         tags: []
-    - rid: 4247450033601118854
+    - rid: 4247450054528336040
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_4
         tags: []
-    - rid: 4247450033601118855
+    - rid: 4247450054528336041
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_4
         tags: []
-    - rid: 4247450033601118856
+    - rid: 4247450054528336042
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_4
         tags: []
-    - rid: 4247450033601118857
+    - rid: 4247450054528336043
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_4
         tags: []
-    - rid: 4247450033601118858
+    - rid: 4247450054528336044
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_4
         tags: []
-    - rid: 4247450033601118859
+    - rid: 4247450054528336045
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_4
         tags: []
-    - rid: 4247450033601118860
+    - rid: 4247450054528336046
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_4
         tags:
         - lastline
-    - rid: 4247450033601118861
+    - rid: 4247450054528336047
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_4
         tags: []
-    - rid: 4247450033601118862
+    - rid: 4247450054528336048
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_4
         tags: []
-    - rid: 4247450033601118863
+    - rid: 4247450054528336049
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_4
         tags: []
-    - rid: 4247450033601118864
+    - rid: 4247450054528336050
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_4
         tags: []
-    - rid: 4247450033601118865
+    - rid: 4247450054528336051
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_4
         tags: []
-    - rid: 4247450033601118866
+    - rid: 4247450054528336052
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_4
         tags: []
-    - rid: 4247450033601118867
+    - rid: 4247450054528336053
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_4
         tags: []
-    - rid: 4247450033601118868
+    - rid: 4247450054528336054
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_4
         tags:
         - lastline
-    - rid: 4247450033601118869
+    - rid: 4247450054528336055
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_4
         tags: []
-    - rid: 4247450033601118870
+    - rid: 4247450054528336056
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_4
         tags: []
-    - rid: 4247450033601118871
+    - rid: 4247450054528336057
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_4
         tags: []
-    - rid: 4247450033601118872
+    - rid: 4247450054528336058
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Client_4

@@ -30,6 +30,38 @@ MonoBehaviour:
     m_Localized: 314f70be8967742d0905b5961dcb58d8
     m_Metadata:
       m_Items: []
+  - m_Id: 580927460728832
+    m_Localized: bfe9c405d0efe4cf491a5b0969407453
+    m_Metadata:
+      m_Items: []
+  - m_Id: 580927586557952
+    m_Localized: 'bfe9c405d0efe4cf491a5b0969407453[StampatelloFaceto SDF Material]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 582067942318080
+    m_Localized: bfe9c405d0efe4cf491a5b0969407453
+    m_Metadata:
+      m_Items: []
+  - m_Id: 582067971678208
+    m_Localized: 'bfe9c405d0efe4cf491a5b0969407453[StampatelloFaceto SDF Material]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 582640129269760
+    m_Localized: bfe9c405d0efe4cf491a5b0969407453
+    m_Metadata:
+      m_Items: []
+  - m_Id: 582640141852672
+    m_Localized: 'bfe9c405d0efe4cf491a5b0969407453[StampatelloFaceto SDF Material]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 584480027828224
+    m_Localized: bfe9c405d0efe4cf491a5b0969407453
+    m_Metadata:
+      m_Items: []
+  - m_Id: 584480069771264
+    m_Localized: 'bfe9c405d0efe4cf491a5b0969407453[StampatelloFaceto SDF Material]'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

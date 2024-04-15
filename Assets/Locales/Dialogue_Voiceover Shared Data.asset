@@ -39,12 +39,47 @@ MonoBehaviour:
     m_Key: MainScene/Canvas/OptionDialogue 1
     m_Metadata:
       m_Items: []
+  - m_Id: 580927460728832
+    m_Key: PlayerDialogue/Prefab Mode in Context/PlayerDialogue/LineText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 580927586557952
+    m_Key: PlayerDialogue/Prefab Mode in Context/PlayerDialogue/LineText 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 582067942318080
+    m_Key: PlayerDialogue/Prefab Mode in Context/PlayerDialogue/LineText 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 582067971678208
+    m_Key: PlayerDialogue/Prefab Mode in Context/PlayerDialogue/LineText 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 582640129269760
+    m_Key: ClientDialogue/Prefab Mode in Context/ClientDialogue/ClientDialogueLineView/ClientLineText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 582640141852672
+    m_Key: ClientDialogue/Prefab Mode in Context/ClientDialogue/ClientDialogueLineView/ClientLineText
+      1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 584480027828224
+    m_Key: MainScene/Canvas/Dialogue/OptionDialogue/OptionLineText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 584480069771264
+    m_Key: MainScene/Canvas/Dialogue/OptionDialogue/OptionLineText 1
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 4247450027472715993
     - rid: 4247450027472716009
     - rid: 4247450027472716010
     - rid: 4247450027472716015
+    - rid: 4247450039374578427
+    - rid: 4247450039374578430
   m_KeyGenerator:
     rid: 4247450009170870298
   references:
@@ -90,3 +125,55 @@ MonoBehaviour:
           - zh-Hans
         m_TypeString: OptionsListView, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
           PublicKeyToken=null
+    - rid: 4247450039374578427
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 580927460728832
+          m_TableCodes:
+          - zh-Hans
+          - en
+          - zh-Hant
+        - m_KeyId: 582067942318080
+          m_TableCodes:
+          - zh-Hans
+          - en
+          - zh-Hant
+        - m_KeyId: 582640129269760
+          m_TableCodes:
+          - zh-Hans
+          - en
+          - zh-Hant
+        - m_KeyId: 584480027828224
+          m_TableCodes:
+          - zh-Hans
+          - en
+          - zh-Hant
+        m_TypeString: TMPro.TMP_FontAsset, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+    - rid: 4247450039374578430
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 580927586557952
+          m_TableCodes:
+          - zh-Hans
+          - en
+          - zh-Hant
+        - m_KeyId: 582067971678208
+          m_TableCodes:
+          - zh-Hans
+          - en
+          - zh-Hant
+        - m_KeyId: 582640141852672
+          m_TableCodes:
+          - zh-Hans
+          - en
+          - zh-Hant
+        - m_KeyId: 584480069771264
+          m_TableCodes:
+          - zh-Hans
+          - en
+          - zh-Hant
+        m_TypeString: UnityEngine.Material, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
