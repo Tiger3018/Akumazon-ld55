@@ -14,19 +14,19 @@ public class MusicBehavior : MonoBehaviour
 
     private void OnSanChangedMusicFile(int value)
     {
-        if (value < 20)
+        if (value <= 20)
         {
             m_audioSource.clip = m_musicClips[4];
         }
-        else if (value < 40)
+        else if (value <= 40)
         {
             m_audioSource.clip = m_musicClips[3];
         }
-        else if (value < 60)
+        else if (value <= 60)
         {
             m_audioSource.clip = m_musicClips[2];
         }
-        else if (value < 80)
+        else if (value <= 80)
         {
             m_audioSource.clip = m_musicClips[1];
         }

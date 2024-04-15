@@ -10,10 +10,11 @@ public class GameSession : MonoSingleton<GameSession>
     {
         Wait,
         Dialogue,
+        DialogueOpenWindow,
         Summon,
+        DesiredDemon = 10,
         WrongDemon,
         NoDemon,
-        DesiredDemon
     }
     public enum SessionDialogue
     {
@@ -24,8 +25,8 @@ public class GameSession : MonoSingleton<GameSession>
         EasyFreeExplore
     }
     /// <summary>
-    /// Session 1: Current Stage, 0 for wait, 1 for dialogue, 2 for summon, 3 for wrong demon
-    ///            4 for no demon, 5 for desired demon
+    /// Session 1: Current Stage, 0 for wait, 1 for dialogue, 2 for dialogue-window, 3 for summon,
+    ///            10 for desired demon, 11 for no daemon, 12 for wrong demon
     /// Session 2: Current Dialogue, see SessionDialogue, 0 - 4
     /// Session 3: Current TextId, TODO
     /// Event Behavior: Event2, Event1, EventAll
@@ -34,9 +35,9 @@ public class GameSession : MonoSingleton<GameSession>
     /// <summary>
     /// This is only affected by the Transcript.
     /// </summary>
-    internal int _m_enumStage = 0;
-    internal int _m_enumClient = 0;
-    internal int _m_valueSan = 100;
+    private int _m_enumStage = 0;
+    private int _m_enumClient = 0;
+    private int _m_valueSan = 100;
     public int[] m_sessionId
     {
         get => _m_sessionId;
