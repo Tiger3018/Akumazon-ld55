@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 4132e4b126eb64b1cbcc420b8a79092a
+guid: 858f8e19c71c340c3863a77bfccf29a1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7671644516516740090
-    second: stoneWithWords_zh_0
+      213: 6934086728263231946
+    second: icon_0
+  - first:
+      213: -229256013063241344
+    second: icon_1
+  - first:
+      213: -3885610455112514396
+    second: icon_2
+  - first:
+      213: -7441382367286639308
+    second: icon_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +55,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: stoneWithWords_zh_0
+      name: icon_0
       rect:
         serializedVersion: 2
-        x: 538
-        y: 236
-        width: 3382
-        height: 2196
+        x: 0
+        y: 20
+        width: 222
+        height: 205
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,8 +136,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: afbbd0aaa08277a60800000000000000
-      internalID: 7671644516516740090
+      spriteID: ac961e71423da3060800000000000000
+      internalID: 6934086728263231946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 181
+        width: 58
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0814ebaeed481dcf0800000000000000
+      internalID: -229256013063241344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 62
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4897fb0e9831ac0800000000000000
+      internalID: -3885610455112514396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_3
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 9
+        width: 61
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4354600c926eab890800000000000000
+      internalID: -7441382367286639308
       vertices: []
       indices: 
       edges: []
@@ -136,7 +208,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -144,7 +216,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      stoneWithWords_zh_0: 7671644516516740090
+      icon_0: 6934086728263231946
+      icon_1: -229256013063241344
+      icon_2: -3885610455112514396
+      icon_3: -7441382367286639308
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
