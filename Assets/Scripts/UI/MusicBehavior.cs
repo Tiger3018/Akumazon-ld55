@@ -42,10 +42,12 @@ public class MusicBehavior : MonoBehaviour
         if (stage == (int)GameSession.SessionStage.Dialogue)
         {
             m_audioSource.clip = m_musicClips[2];
+            m_audioSource.Play();
         }
         else if (stage == (int)GameSession.SessionStage.Summon)
         {
             m_audioSource.clip = m_musicClips[1];
+            m_audioSource.Play();
         }
         else if (stage == (int)GameSession.SessionStage.GoodEnd)
         {
@@ -55,7 +57,6 @@ public class MusicBehavior : MonoBehaviour
         {
             // m_audioSource.clip = m_musicClips[0];
         }
-        m_audioSource.Play();
     }
 
     private void Start()

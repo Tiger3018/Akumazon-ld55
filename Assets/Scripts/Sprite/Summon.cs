@@ -32,7 +32,7 @@ public class Summon : MonoBehaviour
         switch (stage)
         {
         case (int)GameSession.SessionStage.Wait:
-        goto case (int)GameSession.SessionStage.DesiredDemon; case (int)GameSession.SessionStage.Summon:
+        goto case (int)GameSession.SessionStage.DesiredDemon; case (int)GameSession.SessionStage.SummonValidRiddle:
         goto case (int)GameSession.SessionStage.DesiredDemon; case (int)GameSession.SessionStage.DesiredDemon:
             if (m_retryCanvasGroup.alpha > 0)
             {
@@ -41,6 +41,7 @@ public class Summon : MonoBehaviour
             StartCoroutine(UIAnimation.FadeAlpha(m_continueCanvasGroup, 0, 1, .3f));
             break;
         case (int)GameSession.SessionStage.WrongDemon:
+        goto case (int)GameSession.SessionStage.NoDemon; case (int)GameSession.SessionStage.SummonSecondTry:
         goto case (int)GameSession.SessionStage.NoDemon; case (int)GameSession.SessionStage.NoDemon:
             if (m_continueCanvasGroup.alpha > 0)
             {
@@ -63,18 +64,18 @@ public class Summon : MonoBehaviour
 
     public void onClickUpLeftDelegate()
     {
-        if (m_keyTextUI == null)
-        {
-            Debug.LogError("Key Text UI is null");
-            return; // false;
-        }
+        // if (m_keyTextUI == null)
+        //{
+        //     Debug.LogError("Key Text UI is null");
+        //     return;
+        // }
         switch (GameSession.Instance.m_enumStage)
         {
         case (int)GameSession.SessionStage.Wait:
             GameSession.Instance.SetStage((int)GameSession.SessionStage.Dialogue);
             break;
-        case (int)GameSession.SessionStage.Summon:
-            if (GameSession.Instance.m_selectedView == -1 || m_keyTextUI.text.Length != 10)
+        case (int)GameSession.SessionStage.SummonValidRiddle:
+            if (GameSession.Instance.m_selectedView == -1 || GameSession.Instance.m_selectedKey.Length != 10)
             {
                 Debug.Log("Summon Failed - May play music here");
                 if (m_audioSource != null)
@@ -82,17 +83,22 @@ public class Summon : MonoBehaviour
                     m_audioSource.clip = Resources.Load<AudioClip>("Audio/sanloss");
                     m_audioSource.Play();
                 }
-                m_keyTextUI.GetComponentInParent<KeyTextUI>()?.ClearKey(); // May be NULL TODO
-                return;                                                    // false;
+                GameSession.Instance.m_selectedKey = "";
+                GameSession.Instance.SetStage((int)GameSession.SessionStage.SimplyFailedSummon);
+                GameSession.Instance.SetStage((int)GameSession.SessionStage.Summon);
+                return;
             }
             CheckSummonResult();
+            break;
+        case (int)GameSession.SessionStage.SummonSecondTry:
+            GameSession.Instance.SetStage((int)GameSession.SessionStage.Dialogue);
             break;
         case (int)GameSession.SessionStage.DesiredDemon:
             GameSession.Instance.SetStage((int)GameSession.SessionStage.Dialogue);
             break;
         case (int)GameSession.SessionStage.WrongDemon:
         case (int)GameSession.SessionStage.NoDemon:
-            GameSession.Instance.SetStage((int)GameSession.SessionStage.Summon);
+            GameSession.Instance.SetStage((int)GameSession.SessionStage.SummonSecondTry);
             break;
         }
         return; // false;
@@ -103,16 +109,21 @@ public class Summon : MonoBehaviour
         string candleString = "";
 
         // Check for Riddle
-        switch (m_keyTextUI.text[0])
+        switch (GameSession.Instance.m_selectedKey[0])
         {
         case 'A':
-            checkValidRiddle = m_keyTextUI.text.Equals(m_demonColor[0]) ? (int)GameSession.ColorRiddle.RedFire : -1;
+            checkValidRiddle =
+                GameSession.Instance.m_selectedKey.Equals(m_demonColor[0]) ? (int)GameSession.ColorRiddle.RedFire : -1;
             break;
         case 'I':
-            checkValidRiddle = m_keyTextUI.text.Equals(m_demonColor[1]) ? (int)GameSession.ColorRiddle.BlueDisease : -1;
+            checkValidRiddle = GameSession.Instance.m_selectedKey.Equals(m_demonColor[1])
+                                   ? (int)GameSession.ColorRiddle.BlueDisease
+                                   : -1;
             break;
         case 'C':
-            checkValidRiddle = m_keyTextUI.text.Equals(m_demonColor[2]) ? (int)GameSession.ColorRiddle.GreenPlant : -1;
+            checkValidRiddle = GameSession.Instance.m_selectedKey.Equals(m_demonColor[2])
+                                   ? (int)GameSession.ColorRiddle.GreenPlant
+                                   : -1;
             break;
         default:
             Debug.Log("No Summon There - Riddle Failed");
@@ -171,6 +182,11 @@ public class Summon : MonoBehaviour
         }
         else if (selectedDemon != wantDemon)
         {
+            if (m_audioSource != null)
+            {
+                m_audioSource.clip = Resources.Load<AudioClip>("Audio/sanloss");
+                m_audioSource.Play();
+            }
             Debug.Log("Summon Compare " + selectedDemon + " with desired " + wantDemon + " Failed");
             GameSession.Instance.SetStage((int)GameSession.SessionStage.WrongDemon);
             return;

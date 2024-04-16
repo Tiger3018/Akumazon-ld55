@@ -56,7 +56,7 @@ public class Demon : MonoBehaviour
         m_demonFace.SetActive(true);
         if (m_audioSource != null)
         {
-            m_audioSource.clip = Resources.Load<AudioClip>("Audio/pose3");
+            m_audioSource.clip = Resources.Load<AudioClip>("Audio/summon");
             m_audioSource.Play();
         }
         m_currentShownDemon = true;

@@ -12,6 +12,9 @@ public class GameSession : MonoSingleton<GameSession>
         Dialogue,
         DialogueOpenWindow,
         Summon,
+        SummonValidRiddle,
+        SummonSecondTry,
+        SimplyFailedSummon,
         DesiredDemon = 10,
         WrongDemon,
         NoDemon,
@@ -40,6 +43,7 @@ public class GameSession : MonoSingleton<GameSession>
         BlueDisease,
         GreenPlant,
     }
+    public string m_selectedKey = "";
     // public int m_selectedColor { get; private set; }
     // public ColorRiddle m_selectedColorEnum
     //{

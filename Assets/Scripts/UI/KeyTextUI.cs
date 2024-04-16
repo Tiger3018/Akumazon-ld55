@@ -1,6 +1,7 @@
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Assertions;
 
 public class KeyTextUI : MonoBehaviour
 {
@@ -15,9 +16,10 @@ public class KeyTextUI : MonoBehaviour
     public float m_fadeTime = 0.5f;
     private TextMeshProUGUI m_textMeshProUGUI;
     private RectTransform m_rectTransform;
-    private uint m_keyLength;
-    private string m_keySaved;
+    // private uint m_keyLength;
+    // private string originalStr; // TODO Deprecated
     private AudioSource m_audioSource;
+    private int m_enumStageLastSummon;
 
     private void Awake()
     {
@@ -53,28 +55,37 @@ public class KeyTextUI : MonoBehaviour
 
     private void UpdateFocus(int stage)
     {
-        Debug.Log("KeyTextUI is handling: " + stage);
-        if (stage == (int)GameSession.SessionStage.Summon)
+        if (CheckIfAnySummonState(stage))
         {
-            m_keyLength = 0;
-            m_keySaved = "";
-            m_inputField.text = "";
-            m_textMeshProUGUI.text = "";
+            Debug.Log("KeyTextUI is handling: " + stage);
+            m_inputField.text = GameSession.Instance.m_selectedKey;
             m_parentCanvasGroup.interactable = true;
             m_inputField.ActivateInputField();
+            Assert.IsTrue(m_inputField.IsActive());
             // m_inputField.OnPointerClick(null);
         }
         else if (m_parentCanvasGroup.interactable) // might be not isfocused
         {
+            ClearKey(); // simply failed
             m_inputField.DeactivateInputField();
             StartCoroutine(UIAnimation.FadeAlpha(m_parentCanvasGroup, 1, 0, m_fadeTime));
             m_parentCanvasGroup.interactable = false;
             m_parentCanvasGroup.blocksRaycasts = false;
         }
     }
+
+    static public bool CheckIfAnySummonState(int stage)
+    {
+        if (stage == (int)GameSession.SessionStage.Summon || stage == (int)GameSession.SessionStage.SummonSecondTry ||
+            stage == (int)GameSession.SessionStage.SummonValidRiddle)
+        {
+            return true;
+        }
+        return false;
+    }
     public void UpdateWhenSelect(string str)
     {
-        if (GameSession.Instance.m_enumStage != (int)GameSession.SessionStage.Summon)
+        if (!CheckIfAnySummonState(GameSession.Instance.m_enumStage))
         {
             Debug.LogError("This ReplayInput should not be selected.");
             m_inputField.DeactivateInputField();
@@ -84,8 +95,13 @@ public class KeyTextUI : MonoBehaviour
 
     public void UpdateWhenDeselect(string str)
     {
-        if (GameSession.Instance.m_enumStage == (int)GameSession.SessionStage.Summon)
+        Debug.Log("Key Deselected: " + str);
+        if (CheckIfAnySummonState(GameSession.Instance.m_enumStage))
         {
+            if (GameSession.Instance.m_selectedKey.Length == 0)
+            {
+                ClearKey(); // TODO now it can't get into there
+            }
             m_inputField.ActivateInputField();
         }
     }
@@ -93,15 +109,16 @@ public class KeyTextUI : MonoBehaviour
     public void UpdateWhenChanged(string givenStr)
     {
         Debug.Log("Key Changed: " + givenStr);
-        if (givenStr.Length == m_keyLength)
+        string originalStr = GameSession.Instance.m_selectedKey; // TODO const
+        if (givenStr.Length == originalStr.Length)
         {
             // m_rectTransform.sizeDelta = new Vector2(0, 0);
             return; // Avoid Callback Twice.
         }
         string replaceStr = givenStr.ToUpper();
-        if (givenStr.Length < m_keyLength)
+        if (givenStr.Length < originalStr.Length)
         {
-            replaceStr = m_keySaved;
+            replaceStr = originalStr;
         }
         else if (givenStr.Length == 1 && replaceStr[0] >= 'A' && replaceStr[0] <= 'Z')
         {
@@ -110,22 +127,22 @@ public class KeyTextUI : MonoBehaviour
         }
         else
         {
-            for (int i = 0; i < m_keySaved.Length; i++)
+            for (int i = 0; i < originalStr.Length; i++)
             {
-                if (replaceStr[i] != m_keySaved[i])
+                if (replaceStr[i] != originalStr[i])
                 {
                     if (replaceStr[i] >= 'A' && replaceStr[i] <= 'Z')
                     {
-                        replaceStr = m_keySaved + replaceStr[i];
+                        replaceStr = originalStr + replaceStr[i];
                     }
                     else
                     {
-                        replaceStr = m_keySaved;
+                        replaceStr = originalStr;
                     }
                     break;
                 }
             }
-            if (replaceStr.Length > m_keySaved.Length)
+            if (replaceStr.Length > originalStr.Length)
             {
 
                 if (replaceStr[replaceStr.Length - 1] >= 'A' && replaceStr[replaceStr.Length - 1] <= 'Z')
@@ -133,49 +150,55 @@ public class KeyTextUI : MonoBehaviour
                 }
                 else
                 {
-                    replaceStr = m_keySaved;
+                    replaceStr = originalStr;
                 }
             }
         }
-        m_keySaved = replaceStr;
-        if (m_keyLength != (uint)replaceStr.Length &&
-            m_audioSource !=
-                null) // && m_audioSource.clip != null && m_audioSource.clip.loadState == AudioDataLoadState.Loaded)
+        if (originalStr !=
+            replaceStr) // && m_audioSource.clip != null && m_audioSource.clip.loadState == AudioDataLoadState.Loaded)
         {
             m_audioSource.Play();
         }
-        m_keyLength = (uint)replaceStr.Length;
+        GameSession.Instance.m_selectedKey = replaceStr;
         m_inputField.text = replaceStr;
         // https://discussions.unity.com/t/inputfield-disable-selecting/196793/2
         //  m_inputField.caretPosition = m_inputField.text.Length; // Seems to be no affect
         m_textMeshProUGUI.text = replaceStr;
 
-        if (replaceStr.Length == 10)
+        if (replaceStr.Length == 10) // TODO
         {
+            m_enumStageLastSummon = GameSession.Instance.m_enumStage;
+            GameSession.Instance.SetStage((int)GameSession.SessionStage.SummonValidRiddle);
             m_textMeshProUGUI.color = new Color(107f / 255, 22f / 255, 22f / 255, 1);
         }
         else if (replaceStr.Length > 10)
         {
+            if (GameSession.Instance.m_enumStage == (int)GameSession.SessionStage.SummonValidRiddle)
+            {
+                GameSession.Instance.SetStage(m_enumStageLastSummon);
+            }
             m_textMeshProUGUI.color = new Color(50f / 255, 50f / 255, 50f / 255, 0.15f);
         }
         else
         {
+            if (GameSession.Instance.m_enumStage == (int)GameSession.SessionStage.SummonValidRiddle)
+            {
+                GameSession.Instance.SetStage(m_enumStageLastSummon);
+            }
             m_textMeshProUGUI.color = new Color(50f / 255, 50f / 255, 50f / 255, 0.7f);
         }
     }
 
     public void ClearKey()
     {
-        if (m_keyLength == 0)
+        if (GameSession.Instance.m_selectedKey.Length == 0)
         {
             return;
         }
         StartCoroutine(UIAnimation.FadeAlpha(m_parentCanvasGroup, 1, 0, m_fadeTime));
-        m_keySaved = "";
-        m_keyLength = 0;
+        GameSession.Instance.m_selectedKey = "";
         m_inputField.text = "";
         StartCoroutine(UIAnimation.WaitSecondsThenClear(m_fadeTime, m_textMeshProUGUI));
-        // m_textMeshProUGUI.text = "";
         m_parentCanvasGroup.blocksRaycasts = false;
     }
 }
