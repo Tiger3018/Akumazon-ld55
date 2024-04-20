@@ -18,16 +18,8 @@ MonoBehaviour:
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 300561646739456
-    m_Localized: 61b5b20b54c7a43b994c15ff0dfd63ef
-    m_Metadata:
-      m_Items: []
-  - m_Id: 304826620567552
-    m_Localized: 314f70be8967742d0905b5961dcb58d8
-    m_Metadata:
-      m_Items: []
-  - m_Id: 304905859358720
-    m_Localized: 314f70be8967742d0905b5961dcb58d8
+  - m_Id: 2432987403640832
+    m_Localized: '71eddc092afeb435c823bb6c28740544[riddle00]'
     m_Metadata:
       m_Items: []
   - m_Id: 580927460728832
@@ -60,6 +52,22 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 584480069771264
     m_Localized: 'bfe9c405d0efe4cf491a5b0969407453[StampatelloFaceto SDF Material]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2435102725365760
+    m_Localized: 'be6c5f569f0e541b880a82cdeb967d6f[riddle01]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2436991508537344
+    m_Localized: '7b16e944728b94b608be9983e46fa4ce[candleHint]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2437253807726592
+    m_Localized: '8ec8e9896e71042838c173b4265e7695[goodEnd]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2437352499699712
+    m_Localized: '03426e9cb6d53429a843b2cc88eb6167[badEnd]'
     m_Metadata:
       m_Items: []
   references:

@@ -15,30 +15,6 @@ MonoBehaviour:
   m_TableCollectionName: Dialogue_Voiceover
   m_TableCollectionNameGuidString: f6f69e7156278492d843cbf5f2fb8ce0
   m_Entries:
-  - m_Id: 300561646739456
-    m_Key: MainScene/Canvas/OptionDialogue
-    m_Metadata:
-      m_Items: []
-  - m_Id: 304574916190208
-    m_Key: MainScene/EventSystem
-    m_Metadata:
-      m_Items: []
-  - m_Id: 304826620567552
-    m_Key: OptionDialogue/Prefab Mode in Context/OptionDialogue
-    m_Metadata:
-      m_Items: []
-  - m_Id: 304905859358720
-    m_Key: OptionDialogue/Prefab Mode in Context/OptionDialogue 1
-    m_Metadata:
-      m_Items: []
-  - m_Id: 305624985362432
-    m_Key: MainScene/EventSystem 1
-    m_Metadata:
-      m_Items: []
-  - m_Id: 306780176375808
-    m_Key: MainScene/Canvas/OptionDialogue 1
-    m_Metadata:
-      m_Items: []
   - m_Id: 580927460728832
     m_Key: PlayerDialogue/Prefab Mode in Context/PlayerDialogue/LineText
     m_Metadata:
@@ -72,14 +48,31 @@ MonoBehaviour:
     m_Key: MainScene/Canvas/Dialogue/OptionDialogue/OptionLineText 1
     m_Metadata:
       m_Items: []
+  - m_Id: 2432987403640832
+    m_Key: DialogRiddleR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2435102725365760
+    m_Key: DialogRiddleG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2436991508537344
+    m_Key: candleHint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2437253807726592
+    m_Key: goodEnd
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2437352499699712
+    m_Key: banEnd
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
-    - rid: 4247450027472715993
-    - rid: 4247450027472716009
-    - rid: 4247450027472716010
-    - rid: 4247450027472716015
     - rid: 4247450039374578427
     - rid: 4247450039374578430
+    - rid: 4247450161066278928
   m_KeyGenerator:
     rid: 4247450009170870298
   references:
@@ -89,42 +82,6 @@ MonoBehaviour:
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
       data:
         m_CustomEpoch: 1713015536724
-    - rid: 4247450027472715993
-      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
-      data:
-        m_Entries:
-        - m_KeyId: 300561646739456
-          m_TableCodes:
-          - en
-        m_TypeString: UnityEngine.CanvasGroup, UnityEngine.UIModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-    - rid: 4247450027472716009
-      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
-      data:
-        m_Entries:
-        - m_KeyId: 304826620567552
-          m_TableCodes:
-          - en
-        m_TypeString: TMPro.TextMeshProUGUI, Unity.TextMeshPro, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-    - rid: 4247450027472716010
-      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
-      data:
-        m_Entries:
-        - m_KeyId: 304905859358720
-          m_TableCodes:
-          - en
-        m_TypeString: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-    - rid: 4247450027472716015
-      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
-      data:
-        m_Entries:
-        - m_KeyId: 304574916190208
-          m_TableCodes:
-          - zh-Hans
-        m_TypeString: OptionsListView, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-          PublicKeyToken=null
     - rid: 4247450039374578427
       type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
       data:
@@ -176,4 +133,35 @@ MonoBehaviour:
           - en
           - zh-Hant
         m_TypeString: UnityEngine.Material, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+    - rid: 4247450161066278928
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 2432987403640832
+          m_TableCodes:
+          - en
+          - zh-Hant
+          - zh-Hans
+        - m_KeyId: 2435102725365760
+          m_TableCodes:
+          - zh-Hans
+          - zh-Hant
+          - en
+        - m_KeyId: 2436991508537344
+          m_TableCodes:
+          - en
+          - zh-Hant
+          - zh-Hans
+        - m_KeyId: 2437253807726592
+          m_TableCodes:
+          - zh-Hans
+          - zh-Hant
+          - en
+        - m_KeyId: 2437352499699712
+          m_TableCodes:
+          - en
+          - zh-Hans
+          - zh-Hant
+        m_TypeString: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null

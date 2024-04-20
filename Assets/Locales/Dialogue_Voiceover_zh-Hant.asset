@@ -50,6 +50,26 @@ MonoBehaviour:
     m_Localized: 'ba14ccd084d234e4b9034c2524472d53[Yozai-Regular SDF Material]'
     m_Metadata:
       m_Items: []
+  - m_Id: 2432987403640832
+    m_Localized: '24052f68bb9cf4ee7bbbc23f00f01a19[riddle00_zh]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2435102725365760
+    m_Localized: '7e46adc14101541a6b62a9cae2337ab2[riddle01_zh]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2436991508537344
+    m_Localized: '7d41dcd14d1d241a8915ae5c7b5e528c[candleHint_zh]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2437253807726592
+    m_Localized: '1182d9aa1eefa4fd293d496dba02f786[goodEnd_zh]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2437352499699712
+    m_Localized: '002fa0c668f4f44f9b7c00f81bd46a8c[badEnd_zh]'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

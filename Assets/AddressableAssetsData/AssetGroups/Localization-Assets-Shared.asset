@@ -34,6 +34,41 @@ MonoBehaviour:
     - Locale-zh-Hans
     - Locale-zh-Hant
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24052f68bb9cf4ee7bbbc23f00f01a19
+    m_Address: riddle00_zh
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-Hant
+    - Locale-zh-Hans
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e46adc14101541a6b62a9cae2337ab2
+    m_Address: riddle01_zh
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-Hans
+    - Locale-zh-Hant
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d41dcd14d1d241a8915ae5c7b5e528c
+    m_Address: candleHint_zh
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-Hant
+    - Locale-zh-Hans
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1182d9aa1eefa4fd293d496dba02f786
+    m_Address: goodEnd_zh
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-Hans
+    - Locale-zh-Hant
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 002fa0c668f4f44f9b7c00f81bd46a8c
+    m_Address: badEnd_zh
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-Hans
+    - Locale-zh-Hant
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 1d0c0453c58684df78aaba9c6dcfaf13, type: 2}
   m_SchemaSet:
